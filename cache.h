@@ -2,20 +2,20 @@
 
 /* SimpleScalar(TM) Tool Suite
  * Copyright (C) 1994-2003 by Todd M. Austin, Ph.D. and SimpleScalar, LLC.
- * All Rights Reserved. 
- * 
+ * All Rights Reserved.
+ *
  * THIS IS A LEGAL DOCUMENT, BY USING SIMPLESCALAR,
  * YOU ARE AGREEING TO THESE TERMS AND CONDITIONS.
- * 
+ *
  * No portion of this work may be used by any commercial entity, or for any
  * commercial purpose, without the prior, written permission of SimpleScalar,
  * LLC (info@simplescalar.com). Nonprofit and noncommercial use is permitted
  * as described below.
- * 
+ *
  * 1. SimpleScalar is provided AS IS, with no warranty of any kind, express
  * or implied. The user of the program accepts full responsibility for the
  * application of the program and the use of any results.
- * 
+ *
  * 2. Nonprofit and noncommercial use is encouraged. SimpleScalar may be
  * downloaded, compiled, executed, copied, and modified solely for nonprofit,
  * educational, noncommercial research, and noncommercial scholarship
@@ -24,13 +24,13 @@
  * solely for nonprofit, educational, noncommercial research, and
  * noncommercial scholarship purposes provided that this notice in its
  * entirety accompanies all copies.
- * 
+ *
  * 3. ALL COMMERCIAL USE, AND ALL USE BY FOR PROFIT ENTITIES, IS EXPRESSLY
  * PROHIBITED WITHOUT A LICENSE FROM SIMPLESCALAR, LLC (info@simplescalar.com).
- * 
+ *
  * 4. No nonprofit user may place any restrictions on the use of this software,
  * including as modified by the user, by any other authorized user.
- * 
+ *
  * 5. Noncommercial and nonprofit users may distribute copies of SimpleScalar
  * in compiled or executable form as set forth in Section 2, provided that
  * either: (A) it is accompanied by the corresponding machine-readable source
@@ -40,11 +40,11 @@
  * must permit verbatim duplication by anyone, or (C) it is distributed by
  * someone who received only the executable form, and is accompanied by a
  * copy of the written offer of source code.
- * 
+ *
  * 6. SimpleScalar was developed by Todd M. Austin, Ph.D. The tool suite is
  * currently maintained by SimpleScalar LLC (info@simplescalar.com). US Mail:
  * 2395 Timbercrest Court, Ann Arbor, MI 48105.
- * 
+ *
  * Copyright (C) 1994-2003 by Todd M. Austin, Ph.D. and SimpleScalar, LLC.
  */
 
@@ -98,6 +98,13 @@
    speed block access, this macro decides if a cache is "highly associative" */
 #define CACHE_HIGHLY_ASSOC(cp)	((cp)->assoc > 4)
 
+int total_cycle;
+
+int cal_cycle(
+				int now,
+				int cp_cycle);
+
+
 /* cache replacement policy */
 enum cache_policy {
   LRU,		/* replace least recently used block (perfect LRU) */
@@ -110,43 +117,44 @@ enum cache_policy {
 #define CACHE_BLK_DIRTY		0x00000002	/* dirty block */
 
 /* cache block (or line) definition */
-struct cache_blk_t
-{
-  struct cache_blk_t *way_next;	/* next block in the ordered way chain, used
-				   to order blocks for replacement */
-  struct cache_blk_t *way_prev;	/* previous block in the order way chain */
-  struct cache_blk_t *hash_next;/* next block in the hash bucket chain, only
-				   used in highly-associative caches */
-  /* since hash table lists are typically small, there is no previous
+struct cache_blk_t {
+    struct cache_blk_t *way_next;	/* next block in the ordered way chain, used
+                   to order blocks for replacement */
+    struct cache_blk_t *way_prev;	/* previous block in the order way chain */
+    struct cache_blk_t *hash_next;/* next block in the hash bucket chain, only
+                   used in highly-associative caches */
+    /* since hash table lists are typically small, there is no previous
      pointer, deletion requires a trip through the hash table bucket list */
-  md_addr_t tag;		/* data block tag value */
-  unsigned int status;		/* block status, see CACHE_BLK_* defs above */
-  tick_t ready;		/* time when block will be accessible, field
-				   is set when a miss fetch is initiated */
-  byte_t *user_data;		/* pointer to user defined data, e.g.,
-				   pre-decode data or physical page address */
-  /* DATA should be pointer-aligned due to preceeding field */
-  /* NOTE: this is a variable-size tail array, this must be the LAST field
+    md_addr_t tag;		/* data block tag value */
+    unsigned int status;		/* block status, see CACHE_BLK_* defs above */
+    
+	int num, check;
+	int cycle;
+	
+	tick_t ready;		/* time when block will be accessible, field
+                   is set when a miss fetch is initiated */
+    byte_t *user_data;		/* pointer to user defined data, e.g.,
+                   pre-decode data or physical page address */
+    /* DATA should be pointer-aligned due to preceeding field */
+    /* NOTE: this is a variable-size tail array, this must be the LAST field
      defined in this structure! */
-  byte_t data[1];		/* actual data block starts here, block size
-				   should probably be a multiple of 8 */
+    byte_t data[1];		/* actual data block starts here, block size
+                   should probably be a multiple of 8 */
 };
 
 /* cache set definition (one or more blocks sharing the same set index) */
-struct cache_set_t
-{
-  struct cache_blk_t **hash;	/* hash table: for fast access w/assoc, NULL
-				   for low-assoc caches */
-  struct cache_blk_t *way_head;	/* head of way list */
-  struct cache_blk_t *way_tail;	/* tail pf way list */
-  struct cache_blk_t *blks;	/* cache blocks, allocated sequentially, so
-				   this pointer can also be used for random
-				   access to cache blocks */
+struct cache_set_t {
+    struct cache_blk_t **hash;	/* hash table: for fast access w/assoc, NULL
+                   for low-assoc caches */
+    struct cache_blk_t *way_head;	/* head of way list */
+    struct cache_blk_t *way_tail;	/* tail pf way list */
+    struct cache_blk_t *blks;	/* cache blocks, allocated sequentially, so
+                   this pointer can also be used for random
+                   access to cache blocks */
 };
 
 /* cache definition */
-struct cache_t
-{
+struct cache_t {
   /* parameters */
   char *name;			/* cache name */
   int nsets;			/* number of sets */
@@ -168,10 +176,10 @@ struct cache_t
      of that operation */
   unsigned int					/* latency of block access */
     (*blk_access_fn)(enum mem_cmd cmd,		/* block access command */
-		     md_addr_t baddr,		/* program address to access */
-		     int bsize,			/* size of the cache block */
-		     struct cache_blk_t *blk,	/* ptr to cache block struct */
-		     tick_t now);		/* when fetch was initiated */
+                md_addr_t baddr,		/* program address to access */
+                int bsize,			/* size of the cache block */
+                struct cache_blk_t *blk,	/* ptr to cache block struct */
+                tick_t now);		/* when fetch was initiated */
 
   /* derived data, for fast decoding */
   int hsize;			/* cache set hash table size */
@@ -179,6 +187,7 @@ struct cache_t
   int set_shift;
   md_addr_t set_mask;		/* use *after* shift */
   int tag_shift;
+  int last_hit;
   md_addr_t tag_mask;		/* use *after* shift */
   md_addr_t tagset_mask;	/* used for fast hit detection */
 
@@ -195,6 +204,8 @@ struct cache_t
   /* per-cache stats */
   counter_t hits;		/* total number of hits */
   counter_t misses;		/* total number of misses */
+  counter_t vc_misses;
+  counter_t vc_hits;
   counter_t replacements;	/* total number of replacements at misses */
   counter_t writebacks;		/* total number of writebacks at misses */
   counter_t invalidations;	/* total number of external invalidations */
@@ -202,6 +213,8 @@ struct cache_t
   /* last block to hit, used to optimize cache hit processing */
   md_addr_t last_tagset;	/* tag of last line accessed */
   struct cache_blk_t *last_blk;	/* cache block last accessed */
+  md_addr_t last_blk_addr;	/* cache block last accessed */
+
 
   /* data blocks */
   byte_t *data;			/* pointer to data blocks allocation */
@@ -256,13 +269,43 @@ void cache_stats(struct cache_t *cp, FILE *stream);
    user data is attached to blocks */
 unsigned int				/* latency of access in cycles */
 cache_access(struct cache_t *cp,	/* cache to access */
-	     enum mem_cmd cmd,		/* access type, Read or Write */
-	     md_addr_t addr,		/* address of access */
-	     void *vp,			/* ptr to buffer for input/output */
+	     enum mem_cmd cmd,		/* access type, Read or Write -- shouldnt matter much*/
+	     md_addr_t addr,		/* address of access - main memory address? */
+	     void *vp,			/* ptr to buffer for input/output - not sure... cache buffer??*/
 	     int nbytes,		/* number of bytes to access */
-	     tick_t now,		/* time of access */
-	     byte_t **udata,		/* for return of user data ptr */
-	     md_addr_t *repl_addr);	/* for address of replaced block */
+	     tick_t now,		/* time of access - now*/
+	     byte_t **udata,		/* for return of user data ptr - ? */
+	     md_addr_t *repl_addr);	/* for address of replaced block - put in victim cache*/
+
+unsigned int 
+l1_cache_access(struct cache_t *cp,
+				struct cache_t *cp2,
+				enum mem_cmd cmd,
+				md_addr_t addr,
+				void *vp,
+				int nbytes,
+				tick_t now,
+				byte_t **udata,
+				md_addr_t *repl_addr);
+
+
+unsigned int
+buffer_access(struct cache_t *cp, // stream_buffer
+				struct cache_t *update_cp, // l1 cache
+//				enum mem_cmd cmd, // access type
+				md_addr_t addr, // address of access
+				int nbytes, // number of bytes to aceess
+				tick_t now); // time of access
+
+unsigned int				/* latency of access in cycles */
+cache_add(struct cache_t *cp,	/* cache to access */
+            enum mem_cmd cmd,		/* access type, Read or Write */
+            md_addr_t addr,		/* address of access */
+            void *vp,			/* ptr to buffer for input/output */
+            int nbytes,		/* number of bytes to access */
+            tick_t now,		/* time of access */
+            byte_t **udata,		/* for return of user data ptr */
+            md_addr_t *repl_addr);	/* for address of replaced block */
 
 /* cache access functions, these are safe, they check alignment and
    permissions */

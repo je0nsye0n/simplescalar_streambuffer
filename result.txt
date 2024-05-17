@@ -1,0 +1,4985 @@
+<i_buf access[0] : 24000aa>
+<miss>
+<lat : 11>
+<i_buf access[30] : 24000aa>
+<buf hit : 24000aa>
+<lat : 1>
+<d_buf access[66] : 23ff2df>
+<miss>
+<lat : 11>
+1e<i_buf access[67] : 24000aa>
+<miss>
+<lat : 11>
+<d_buf access[69] : 23ff2e0>
+<miss>
+<lat : 11>
+<i_buf access[78] : 24000aa>
+<buf hit : 24000aa>
+<lat : 1>
+<i_buf access[85] : 24000ab>
+<buf hit : 24000ab>
+<lat : 1>
+<d_buf access[88] : 280002b>
+<miss>
+<lat : 11>
+<d_buf access[103] : 23ff2e0>
+<miss>
+<lat : 11>
+<d_buf access[121] : 23ff2e0>
+<buf hit : 23ff2e0>
+<lat : 1>
+<d_buf access[125] : 23ff2e0>
+<miss>
+<lat : 11>
+<d_buf access[126] : 23ff2e0>
+<buf hit : 23ff2e0>
+<lat : 10>
+<d_buf access[158] : 23ff2e0>
+<miss>
+<lat : 11>
+<d_buf access[159] : 23ff2e0>
+<buf hit : 23ff2e0>
+<lat : 10>
+<d_buf access[163] : 23ff2e1>
+<buf hit : 23ff2e1>
+<lat : 6>
+<d_buf access[175] : 23ff2e1>
+<miss>
+<lat : 11>
+<d_buf access[176] : 23ff2e1>
+<buf hit : 23ff2e1>
+<lat : 10>
+<d_buf access[200] : 23ff2e1>
+<miss>
+<lat : 11>
+<d_buf access[201] : 23ff2e1>
+<buf hit : 23ff2e1>
+<lat : 10>
+<d_buf access[204] : 23ff2e1>
+<miss>
+<lat : 11>
+<d_buf access[205] : 23ff2e1>
+<buf hit : 23ff2e1>
+<lat : 10>
+<d_buf access[237] : 23ff2e2>
+<buf hit : 23ff2e2>
+<lat : 1>
+<d_buf access[241] : 23ff2e2>
+<miss>
+<lat : 11>
+<d_buf access[242] : 23ff2e2>
+<buf hit : 23ff2e2>
+<lat : 10>
+<d_buf access[274] : 23ff2e2>
+<miss>
+<lat : 11>
+<d_buf access[275] : 23ff2e2>
+<buf hit : 23ff2e2>
+<lat : 10>
+<d_buf access[278] : 23ff2e2>
+<miss>
+<lat : 11>
+<d_buf access[279] : 23ff2e2>
+<buf hit : 23ff2e2>
+<lat : 10>
+<d_buf access[311] : 23ff2e3>
+<buf hit : 23ff2e3>
+<lat : 1>
+<d_buf access[315] : 23ff2e3>
+<miss>
+<lat : 11>
+<d_buf access[316] : 23ff2e3>
+<buf hit : 23ff2e3>
+<lat : 10>
+<d_buf access[348] : 23ff2e3>
+<miss>
+<lat : 11>
+<d_buf access[349] : 23ff2e3>
+<buf hit : 23ff2e3>
+<lat : 10>
+<d_buf access[352] : 23ff2e3>
+<miss>
+<lat : 11>
+<d_buf access[353] : 23ff2e3>
+<buf hit : 23ff2e3>
+<lat : 10>
+<d_buf access[385] : 23ff2e4>
+<buf hit : 23ff2e4>
+<lat : 1>
+<d_buf access[389] : 23ff2e4>
+<miss>
+<lat : 11>
+<d_buf access[390] : 23ff2e4>
+<buf hit : 23ff2e4>
+<lat : 10>
+<d_buf access[422] : 23ff2e4>
+<miss>
+<lat : 11>
+<d_buf access[429] : 280002b>
+<miss>
+<lat : 11>
+<d_buf access[441] : 2800045>
+<miss>
+<lat : 11>
+1e<d_buf access[441] : 2800045>
+<buf hit : 2800045>
+<lat : 11>
+1e1d1d<i_buf access[444] : 2400294>
+<miss>
+<lat : 11>
+<i_buf access[474] : 2400294>
+<buf hit : 2400294>
+<lat : 1>
+<i_buf access[506] : 2400294>
+<miss>
+<lat : 11>
+<d_buf access[510] : 23ff2df>
+<miss>
+<lat : 11>
+1<d_buf access[511] : 23ff2df>
+<buf hit : 23ff2df>
+<lat : 10>
+1<i_buf access[517] : 2400294>
+<buf hit : 2400294>
+<lat : 1>
+<i_buf access[530] : 2400147>
+<miss>
+<lat : 11>
+<i_buf access[560] : 2400147>
+<buf hit : 2400147>
+<lat : 1>
+<i_buf access[592] : 2400147>
+<miss>
+<lat : 11>
+<d_buf access[597] : 23ff2df>
+<miss>
+<lat : 11>
+1<i_buf access[603] : 2400147>
+<buf hit : 2400147>
+<lat : 1>
+<d_buf access[612] : 2800042>
+<miss>
+<lat : 11>
+<d_buf access[613] : 23ff2df>
+<miss>
+<lat : 11>
+1<i_buf access[614] : 2400117>
+<miss>
+<lat : 11>
+<i_buf access[644] : 2400117>
+<buf hit : 2400117>
+<lat : 1>
+<i_buf access[681] : 2400148>
+<miss>
+<lat : 11>
+<i_buf access[692] : 2400148>
+<buf hit : 2400148>
+<lat : 1>
+<d_buf access[727] : 23ff2df>
+<buf hit : 23ff2df>
+<lat : 1>
+<i_buf access[728] : 2400139>
+<miss>
+<lat : 11>
+<i_buf access[758] : 2400139>
+<buf hit : 2400139>
+<lat : 1>
+<d_buf access[761] : 2800032>
+<miss>
+<lat : 11>
+<i_buf access[791] : 2400139>
+<miss>
+<lat : 11>
+<d_buf access[795] : 2800001>
+<miss>
+<lat : 11>
+1e<d_buf access[795] : 2800001>
+<buf hit : 2800001>
+<lat : 11>
+1e<i_buf access[802] : 2400139>
+<buf hit : 2400139>
+<lat : 1>
+<d_buf access[806] : 2800002>
+<buf hit : 2800002>
+<lat : 1>
+13<d_buf access[838] : 2800032>
+<miss>
+<lat : 11>
+<i_buf access[839] : 2400135>
+<miss>
+<lat : 11>
+<i_buf access[850] : 2400135>
+<buf hit : 2400135>
+<lat : 1>
+<i_buf access[882] : 2400135>
+<miss>
+<lat : 11>
+<i_buf access[893] : 2400135>
+<buf hit : 2400135>
+<lat : 1>
+<d_buf access[902] : 2800013>
+<miss>
+<lat : 11>
+<d_buf access[902] : 2800032>
+<miss>
+<lat : 11>
+1<i_buf access[917] : 240011b>
+<miss>
+<lat : 11>
+<i_buf access[928] : 240011b>
+<buf hit : 240011b>
+<lat : 1>
+<i_buf access[960] : 240011b>
+<miss>
+<lat : 11>
+<i_buf access[971] : 240011b>
+<buf hit : 240011b>
+<lat : 1>
+<d_buf access[975] : 23ff2df>
+<miss>
+<lat : 11>
+1<i_buf access[978] : 240011b>
+<miss>
+<lat : 11>
+<d_buf access[981] : 23ff2df>
+<buf hit : 23ff2df>
+<lat : 5>
+111<d_buf access[982] : 23ff2df>
+<miss>
+<lat : 11>
+<i_buf access[989] : 240011b>
+<buf hit : 240011b>
+<lat : 1>
+<d_buf access[994] : 23ff2df>
+<buf hit : 23ff2df>
+<lat : 1>
+1<d_buf access[1025] : 2800042>
+<miss>
+<lat : 11>
+<d_buf access[1025] : 2800042>
+<buf hit : 2800042>
+<lat : 11>
+<i_buf access[1026] : 240011d>
+<miss>
+<lat : 11>
+<i_buf access[1037] : 240011d>
+<buf hit : 240011d>
+<lat : 1>
+<i_buf access[1041] : 240011d>
+<miss>
+<lat : 11>
+<i_buf access[1052] : 240011d>
+<buf hit : 240011d>
+<lat : 1>
+1<i_buf access[1074] : 240011d>
+<miss>
+<lat : 11>
+<i_buf access[1085] : 240011d>
+<buf hit : 240011d>
+<lat : 1>
+<d_buf access[1088] : 2800042>
+<miss>
+<lat : 11>
+<i_buf access[1125] : 2400231>
+<miss>
+<lat : 11>
+<i_buf access[1155] : 2400231>
+<buf hit : 2400231>
+<lat : 1>
+<i_buf access[1187] : 2400231>
+<miss>
+<lat : 11>
+<i_buf access[1198] : 2400231>
+<buf hit : 2400231>
+<lat : 1>
+<d_buf access[1202] : 23ff2de>
+<miss>
+<lat : 11>
+11<i_buf access[1209] : 2400231>
+<miss>
+<lat : 11>
+<d_buf access[1210] : 23ff2de>
+<buf hit : 23ff2de>
+<lat : 3>
+1<i_buf access[1214] : 2400231>
+<buf hit : 2400231>
+<lat : 6>
+<i_buf access[1250] : 24000bb>
+<miss>
+<lat : 11>
+<i_buf access[1261] : 24000bb>
+<buf hit : 24000bb>
+<lat : 1>
+<i_buf access[1294] : 24000bc>
+<buf hit : 24000bc>
+<lat : 1>
+<d_buf access[1297] : 23ff2de>
+<miss>
+<lat : 11>
+111<d_buf access[1299] : 23ff2de>
+<buf hit : 23ff2de>
+<lat : 9>
+1<d_buf access[1329] : 280002d>
+<miss>
+<lat : 11>
+<d_buf access[1330] : 2800014>
+<miss>
+<lat : 11>
+<i_buf access[1334] : 24000bc>
+<miss>
+<lat : 11>
+<i_buf access[1345] : 24000bc>
+<buf hit : 24000bc>
+<lat : 1>
+<d_buf access[1354] : 2800030>
+<miss>
+<lat : 11>
+<i_buf access[1355] : 24000b7>
+<miss>
+<lat : 11>
+<i_buf access[1366] : 24000b7>
+<buf hit : 24000b7>
+<lat : 1>
+<i_buf access[1398] : 24000b8>
+<buf hit : 24000b8>
+<lat : 1>
+<i_buf access[1431] : 24000b8>
+<miss>
+<lat : 11>
+1<d_buf access[1434] : 2800008>
+<miss>
+<lat : 11>
+<d_buf access[1435] : 2800042>
+<miss>
+<lat : 11>
+<i_buf access[1442] : 24000b8>
+<buf hit : 24000b8>
+<lat : 1>
+<i_buf access[1453] : 24000bb>
+<miss>
+<lat : 11>
+<d_buf access[1454] : 2800042>
+<buf hit : 2800042>
+<lat : 1>
+1<i_buf access[1464] : 24000bb>
+<buf hit : 24000bb>
+<lat : 1>
+<d_buf access[1467] : 2800030>
+<miss>
+<lat : 11>
+<i_buf access[1500] : 24000bd>
+<miss>
+<lat : 11>
+<i_buf access[1511] : 24000bd>
+<buf hit : 24000bd>
+<lat : 1>
+<i_buf access[1543] : 24000bd>
+<miss>
+<lat : 11>
+<d_buf access[1548] : 23ff2de>
+<miss>
+<lat : 11>
+1<i_buf access[1554] : 24000bd>
+<buf hit : 24000bd>
+<lat : 1>
+<d_buf access[1557] : 2800042>
+<miss>
+<lat : 11>
+<i_buf access[1587] : 24000bd>
+<miss>
+<lat : 11>
+<d_buf access[1590] : 23ff2de>
+<miss>
+<lat : 11>
+1<d_buf access[1590] : 23ff2de>
+<buf hit : 23ff2de>
+<lat : 11>
+11<i_buf access[1598] : 24000bd>
+<buf hit : 24000bd>
+<lat : 1>
+<i_buf access[1608] : 2400217>
+<miss>
+<lat : 11>
+<i_buf access[1638] : 2400217>
+<buf hit : 2400217>
+<lat : 1>
+<i_buf access[1671] : 2400217>
+<miss>
+<lat : 11>
+<d_buf access[1673] : 23ff2de>
+<miss>
+<lat : 11>
+<d_buf access[1675] : 280002b>
+<miss>
+<lat : 11>
+<i_buf access[1682] : 2400217>
+<buf hit : 2400217>
+<lat : 1>
+<d_buf access[1685] : 23ff2de>
+<miss>
+<lat : 11>
+1<d_buf access[1685] : 23ff2de>
+<buf hit : 23ff2de>
+<lat : 11>
+11<i_buf access[1719] : 24000be>
+<miss>
+<lat : 11>
+<i_buf access[1730] : 24000be>
+<buf hit : 24000be>
+<lat : 1>
+<i_buf access[1762] : 24000be>
+<miss>
+<lat : 11>
+<d_buf access[1765] : 2800030>
+<miss>
+<lat : 11>
+<i_buf access[1773] : 24000be>
+<buf hit : 24000be>
+<lat : 1>
+<d_buf access[1776] : 2800011>
+<miss>
+<lat : 11>
+<d_buf access[1786] : 280002f>
+<miss>
+<lat : 11>
+<d_buf access[1786] : 2800008>
+<miss>
+<lat : 11>
+<i_buf access[1788] : 24000bf>
+<buf hit : 24000bf>
+<lat : 1>
+<i_buf access[1828] : 24000f1>
+<miss>
+<lat : 11>
+<i_buf access[1858] : 24000f1>
+<buf hit : 24000f1>
+<lat : 1>
+<i_buf access[1890] : 24000f2>
+<buf hit : 24000f2>
+<lat : 1>
+<d_buf access[1894] : 23ff2dd>
+<miss>
+<lat : 11>
+11<i_buf access[1923] : 24000f2>
+<miss>
+<lat : 11>
+<d_buf access[1925] : 23ff2dd>
+<buf hit : 23ff2dd>
+<lat : 1>
+1111<i_buf access[1934] : 24000f2>
+<buf hit : 24000f2>
+<lat : 1>
+<i_buf access[1941] : 24000f2>
+<miss>
+<lat : 11>
+<i_buf access[1946] : 24000f2>
+<buf hit : 24000f2>
+<lat : 6>
+<i_buf access[1986] : 24000f7>
+<miss>
+<lat : 11>
+<i_buf access[1990] : 24000f2>
+<miss>
+<lat : 11>
+<i_buf access[2001] : 24000f2>
+<buf hit : 24000f2>
+<lat : 1>
+<i_buf access[2005] : 24000f3>
+<buf hit : 24000f3>
+<lat : 1>
+<d_buf access[2008] : 280002f>
+<miss>
+<lat : 11>
+<i_buf access[2041] : 24000fd>
+<miss>
+<lat : 11>
+<i_buf access[2052] : 24000fd>
+<buf hit : 24000fd>
+<lat : 1>
+<i_buf access[2084] : 24000fe>
+<buf hit : 24000fe>
+<lat : 1>
+<d_buf access[2087] : 23ff2dd>
+<miss>
+<lat : 11>
+<d_buf access[2099] : 23ff2dd>
+<buf hit : 23ff2dd>
+<lat : 1>
+1111<i_buf access[2121] : 2400176>
+<miss>
+<lat : 11>
+<i_buf access[2151] : 2400176>
+<buf hit : 2400176>
+<lat : 1>
+<i_buf access[2183] : 2400176>
+<miss>
+<lat : 11>
+<d_buf access[2187] : 23ff2dd>
+<miss>
+<lat : 11>
+1<d_buf access[2187] : 2800013>
+<miss>
+<lat : 11>
+<i_buf access[2194] : 2400176>
+<buf hit : 2400176>
+<lat : 1>
+<i_buf access[2202] : 2400131>
+<miss>
+<lat : 11>
+<i_buf access[2213] : 2400131>
+<buf hit : 2400131>
+<lat : 1>
+<i_buf access[2246] : 24000fe>
+<miss>
+<lat : 11>
+<d_buf access[2248] : 23ff2dd>
+<miss>
+<lat : 11>
+<i_buf access[2253] : 24000fe>
+<buf hit : 24000fe>
+<lat : 4>
+<d_buf access[2254] : 23ff2dd>
+<buf hit : 23ff2dd>
+<lat : 5>
+<i_buf access[2261] : 24000fe>
+<miss>
+<lat : 11>
+<d_buf access[2263] : 2800008>
+<miss>
+<lat : 11>
+<i_buf access[2272] : 24000fe>
+<buf hit : 24000fe>
+<lat : 1>
+1<d_buf access[2307] : 2800043>
+<miss>
+<lat : 11>
+<i_buf access[2309] : 24000fe>
+<miss>
+<lat : 11>
+<i_buf access[2320] : 24000fe>
+<buf hit : 24000fe>
+<lat : 1>
+<d_buf access[2323] : 2800045>
+<miss>
+<lat : 11>
+<i_buf access[2327] : 24000ff>
+<buf hit : 24000ff>
+<lat : 1>
+<d_buf access[2331] : 2400009>
+<miss>
+<lat : 11>
+<d_buf access[2335] : 2800045>
+<miss>
+<lat : 11>
+1<i_buf access[2335] : 24000ff>
+<miss>
+<lat : 11>
+<i_buf access[2346] : 24000ff>
+<buf hit : 24000ff>
+<lat : 1>
+<i_buf access[2360] : 24000ff>
+<miss>
+<lat : 11>
+<d_buf access[2362] : 2800043>
+<miss>
+<lat : 11>
+<d_buf access[2362] : 280002f>
+<miss>
+<lat : 11>
+<i_buf access[2371] : 24000ff>
+<buf hit : 24000ff>
+<lat : 1>
+<i_buf access[2375] : 2400101>
+<miss>
+<lat : 11>
+<i_buf access[2386] : 2400101>
+<buf hit : 2400101>
+<lat : 1>
+<i_buf access[2418] : 2400101>
+<miss>
+<lat : 11>
+<i_buf access[2429] : 2400101>
+<buf hit : 2400101>
+<lat : 1>
+<i_buf access[2462] : 2400101>
+<miss>
+<lat : 11>
+<d_buf access[2464] : 2800043>
+<miss>
+<lat : 11>
+<d_buf access[2465] : 23ff2dc>
+<miss>
+<lat : 11>
+1<i_buf access[2473] : 2400101>
+<buf hit : 2400101>
+<lat : 1>
+<d_buf access[2476] : 23ff2dd>
+<miss>
+<lat : 11>
+1<d_buf access[2476] : 23ff2dd>
+<buf hit : 23ff2dd>
+<lat : 11>
+1111<i_buf access[2480] : 2400102>
+<buf hit : 2400102>
+<lat : 1>
+<d_buf access[2483] : 23ff2dc>
+<miss>
+<lat : 11>
+1<i_buf access[2485] : 2400103>
+<buf hit : 2400103>
+<lat : 1>
+<i_buf access[2517] : 2400103>
+<miss>
+<lat : 11>
+<i_buf access[2528] : 2400103>
+<buf hit : 2400103>
+<lat : 1>
+<d_buf access[2537] : 280002e>
+<miss>
+<lat : 11>
+<d_buf access[2538] : 2800042>
+<miss>
+<lat : 11>
+<i_buf access[2539] : 2400103>
+<miss>
+<lat : 11>
+<i_buf access[2550] : 2400103>
+<buf hit : 2400103>
+<lat : 1>
+<i_buf access[2586] : 2400214>
+<miss>
+<lat : 11>
+<i_buf access[2597] : 2400214>
+<buf hit : 2400214>
+<lat : 1>
+<i_buf access[2635] : 2400215>
+<buf hit : 2400215>
+<lat : 1>
+<i_buf access[2637] : 2400103>
+<miss>
+<lat : 11>
+<d_buf access[2640] : 2800042>
+<buf hit : 2800042>
+<lat : 1>
+1<i_buf access[2648] : 2400103>
+<buf hit : 2400103>
+<lat : 1>
+<i_buf access[2659] : 2400109>
+<miss>
+<lat : 11>
+<i_buf access[2670] : 2400109>
+<buf hit : 2400109>
+<lat : 1>
+<d_buf access[2673] : 23ff2dc>
+<miss>
+<lat : 11>
+<i_buf access[2680] : 2400104>
+<miss>
+<lat : 11>
+<d_buf access[2683] : 2800042>
+<miss>
+<lat : 11>
+<i_buf access[2691] : 2400104>
+<buf hit : 2400104>
+<lat : 1>
+<i_buf access[2724] : 2400104>
+<miss>
+<lat : 11>
+<d_buf access[2726] : 280002d>
+<miss>
+<lat : 11>
+<i_buf access[2729] : 2400105>
+<miss>
+<lat : 11>
+<i_buf access[2740] : 2400105>
+<buf hit : 2400105>
+<lat : 1>
+<d_buf access[2743] : 23ff2dc>
+<miss>
+<lat : 11>
+<i_buf access[2779] : 2400105>
+<miss>
+<lat : 11>
+<d_buf access[2780] : 23ff2dc>
+<buf hit : 23ff2dc>
+<lat : 1>
+1<d_buf access[2782] : 23ff2dc>
+<miss>
+<lat : 11>
+11<i_buf access[2786] : 2400217>
+<miss>
+<lat : 11>
+<d_buf access[2788] : 280003a>
+<miss>
+<lat : 11>
+<i_buf access[2797] : 2400217>
+<buf hit : 2400217>
+<lat : 1>
+<d_buf access[2801] : 2800028>
+<miss>
+<lat : 11>
+<i_buf access[2816] : 2400218>
+<buf hit : 2400218>
+<lat : 1>
+<i_buf access[2852] : 2400170>
+<miss>
+<lat : 11>
+<i_buf access[2863] : 2400170>
+<buf hit : 2400170>
+<lat : 1>
+<i_buf access[2895] : 2400170>
+<miss>
+<lat : 11>
+1<d_buf access[2899] : 2800014>
+<miss>
+<lat : 11>
+<i_buf access[2906] : 2400170>
+<buf hit : 2400170>
+<lat : 1>
+<i_buf access[2914] : 2400127>
+<miss>
+<lat : 11>
+<i_buf access[2925] : 2400127>
+<buf hit : 2400127>
+<lat : 1>
+<i_buf access[2958] : 2400127>
+<miss>
+<lat : 11>
+<d_buf access[2960] : 2800028>
+<miss>
+<lat : 11>
+<i_buf access[2969] : 2400127>
+<buf hit : 2400127>
+<lat : 1>
+<i_buf access[3002] : 2400127>
+<miss>
+<lat : 11>
+<d_buf access[3004] : 2800012>
+<miss>
+<lat : 11>
+<i_buf access[3008] : 2400127>
+<buf hit : 2400127>
+<lat : 5>
+<i_buf access[3013] : 2400128>
+<buf hit : 2400128>
+<lat : 1>
+<d_buf access[3016] : 2800028>
+<miss>
+<lat : 11>
+<d_buf access[3049] : 2800028>
+<buf hit : 2800028>
+<lat : 1>
+<i_buf access[3053] : 2400128>
+<miss>
+<lat : 11>
+<i_buf access[3064] : 2400128>
+<buf hit : 2400128>
+<lat : 1>
+<i_buf access[3070] : 2400128>
+<miss>
+<lat : 11>
+<i_buf access[3081] : 2400128>
+<buf hit : 2400128>
+<lat : 1>
+<i_buf access[3122] : 2400218>
+<miss>
+<lat : 11>
+1<i_buf access[3129] : 2400218>
+<buf hit : 2400218>
+<lat : 4>
+<i_buf access[3139] : 240027e>
+<miss>
+<lat : 11>
+<i_buf access[3169] : 240027e>
+<buf hit : 240027e>
+<lat : 1>
+<i_buf access[3201] : 240027e>
+<miss>
+<lat : 11>
+<i_buf access[3212] : 240027e>
+<buf hit : 240027e>
+<lat : 1>
+<d_buf access[3215] : 280002b>
+<miss>
+<lat : 11>
+<i_buf access[3251] : 240027e>
+<miss>
+<lat : 11>
+<i_buf access[3262] : 240027e>
+<buf hit : 240027e>
+<lat : 1>
+<d_buf access[3265] : 280002b>
+<buf hit : 280002b>
+<lat : 1>
+1<i_buf access[3273] : 2400218>
+<miss>
+<lat : 11>
+<i_buf access[3284] : 2400218>
+<buf hit : 2400218>
+<lat : 1>
+<i_buf access[3320] : 2400218>
+<miss>
+<lat : 11>
+<i_buf access[3331] : 2400218>
+<buf hit : 2400218>
+<lat : 1>
+<i_buf access[3341] : 2400171>
+<miss>
+<lat : 11>
+<i_buf access[3352] : 2400171>
+<buf hit : 2400171>
+<lat : 1>
+1<d_buf access[3388] : 2800015>
+<miss>
+<lat : 11>
+<i_buf access[3403] : 2400128>
+<miss>
+<lat : 11>
+<i_buf access[3414] : 2400128>
+<buf hit : 2400128>
+<lat : 1>
+<i_buf access[3425] : 2400129>
+<buf hit : 2400129>
+<lat : 1>
+1<i_buf access[3459] : 2400219>
+<miss>
+<lat : 11>
+<i_buf access[3463] : 2400171>
+<miss>
+<lat : 11>
+<i_buf access[3474] : 2400171>
+<buf hit : 2400171>
+<lat : 1>
+<i_buf access[3482] : 2400219>
+<miss>
+<lat : 11>
+<d_buf access[3484] : 23ff2dc>
+<miss>
+<lat : 11>
+<i_buf access[3493] : 2400219>
+<buf hit : 2400219>
+<lat : 1>
+<i_buf access[3531] : 2400105>
+<miss>
+<lat : 11>
+<i_buf access[3542] : 2400105>
+<buf hit : 2400105>
+<lat : 1>
+<d_buf access[3551] : 23ff2dc>
+<buf hit : 23ff2dc>
+<lat : 1>
+<i_buf access[3552] : 2400107>
+<miss>
+<lat : 11>
+<i_buf access[3563] : 2400107>
+<buf hit : 2400107>
+<lat : 1>
+<i_buf access[3596] : 2400107>
+<miss>
+<lat : 11>
+<i_buf access[3601] : 2400107>
+<buf hit : 2400107>
+<lat : 6>
+<i_buf access[3633] : 2400107>
+<miss>
+<lat : 11>
+<i_buf access[3644] : 2400107>
+<buf hit : 2400107>
+<lat : 1>
+<d_buf access[3653] : 2800043>
+<miss>
+<lat : 11>
+<i_buf access[3655] : 2400108>
+<buf hit : 2400108>
+<lat : 1>
+<d_buf access[3658] : 2800042>
+<miss>
+<lat : 11>
+<i_buf access[3668] : 2400108>
+<miss>
+<lat : 11>
+<i_buf access[3679] : 2400108>
+<buf hit : 2400108>
+<lat : 1>
+<d_buf access[3682] : 280002e>
+<miss>
+<lat : 11>
+<i_buf access[3687] : 2400108>
+<miss>
+<lat : 11>
+<d_buf access[3694] : 28000dc>
+<miss>
+<lat : 11>
+1e<i_buf access[3698] : 2400108>
+<buf hit : 2400108>
+<lat : 1>
+<i_buf access[3702] : 24000f7>
+<miss>
+<lat : 11>
+<i_buf access[3713] : 24000f7>
+<buf hit : 24000f7>
+<lat : 1>
+<d_buf access[3716] : 28000dc>
+<buf hit : 28000dc>
+<lat : 1>
+<i_buf access[3745] : 24000f8>
+<buf hit : 24000f8>
+<lat : 1>
+<d_buf access[3750] : 23ff2dc>
+<miss>
+<lat : 11>
+1<i_buf access[3778] : 24000f8>
+<miss>
+<lat : 11>
+1111<d_buf access[3782] : 23ff2dc>
+<buf hit : 23ff2dc>
+<lat : 1>
+1<i_buf access[3789] : 24000f8>
+<buf hit : 24000f8>
+<lat : 1>
+1<i_buf access[3796] : 24000f8>
+<miss>
+<lat : 11>
+<i_buf access[3804] : 24000f9>
+<miss>
+<lat : 11>
+<i_buf access[3815] : 24000f9>
+<buf hit : 24000f9>
+<lat : 1>
+<d_buf access[3818] : 280002d>
+<miss>
+<lat : 11>
+<d_buf access[3850] : 2800008>
+<miss>
+<lat : 11>
+<d_buf access[3850] : 2800008>
+<buf hit : 2800008>
+<lat : 11>
+<d_buf access[3851] : 2800043>
+<miss>
+<lat : 11>
+<d_buf access[3851] : 2800042>
+<miss>
+<lat : 11>
+<i_buf access[3852] : 24000fc>
+<miss>
+<lat : 11>
+<i_buf access[3863] : 24000fc>
+<buf hit : 24000fc>
+<lat : 1>
+<i_buf access[3863] : 24000fc>
+<miss>
+<lat : 11>
+<i_buf access[3874] : 24000fc>
+<buf hit : 24000fc>
+<lat : 1>
+<i_buf access[3899] : 240010d>
+<miss>
+<lat : 11>
+<i_buf access[3910] : 240010d>
+<buf hit : 240010d>
+<lat : 1>
+<i_buf access[3943] : 240010d>
+<miss>
+<lat : 11>
+<i_buf access[3950] : 240010e>
+<miss>
+<lat : 11>
+<i_buf access[3961] : 240010e>
+<buf hit : 240010e>
+<lat : 1>
+1<i_buf access[3995] : 24000fd>
+<miss>
+<lat : 11>
+<d_buf access[3997] : 28000dc>
+<miss>
+<lat : 11>
+111<i_buf access[4006] : 24000fd>
+<buf hit : 24000fd>
+<lat : 1>
+<i_buf access[4041] : 2400108>
+<miss>
+<lat : 11>
+<d_buf access[4044] : 2400009>
+<miss>
+<lat : 11>
+<d_buf access[4044] : 2800008>
+<miss>
+<lat : 11>
+<i_buf access[4052] : 2400108>
+<buf hit : 2400108>
+<lat : 1>
+1<i_buf access[4061] : 2400109>
+<buf hit : 2400109>
+<lat : 1>
+<d_buf access[4062] : 2800008>
+<buf hit : 2800008>
+<lat : 1>
+111<i_buf access[4076] : 2400100>
+<miss>
+<lat : 11>
+<i_buf access[4087] : 2400100>
+<buf hit : 2400100>
+<lat : 1>
+<i_buf access[4119] : 2400100>
+<miss>
+<lat : 11>
+<i_buf access[4130] : 2400100>
+<buf hit : 2400100>
+<lat : 1>
+<i_buf access[4168] : 24000f3>
+<miss>
+<lat : 11>
+<i_buf access[4179] : 24000f3>
+<buf hit : 24000f3>
+<lat : 1>
+<i_buf access[4186] : 24000f4>
+<buf hit : 24000f4>
+<lat : 1>
+<i_buf access[4222] : 24000f4>
+<miss>
+<lat : 11>
+<i_buf access[4233] : 24000f4>
+<buf hit : 24000f4>
+<lat : 1>
+<i_buf access[4249] : 24000f4>
+<miss>
+<lat : 11>
+<i_buf access[4260] : 24000f4>
+<buf hit : 24000f4>
+<lat : 1>
+<i_buf access[4297] : 24000f4>
+<miss>
+<lat : 11>
+<i_buf access[4304] : 24000f5>
+<miss>
+<lat : 11>
+<i_buf access[4315] : 24000f5>
+<buf hit : 24000f5>
+<lat : 1>
+<i_buf access[4347] : 24000f6>
+<buf hit : 24000f6>
+<lat : 1>
+<d_buf access[4382] : 28000dc>
+<miss>
+<lat : 11>
+<i_buf access[4383] : 2400109>
+<miss>
+<lat : 11>
+<i_buf access[4394] : 2400109>
+<buf hit : 2400109>
+<lat : 1>
+<i_buf access[4432] : 24000f6>
+<miss>
+<lat : 11>
+<d_buf access[4434] : 280002d>
+<miss>
+<lat : 11>
+<i_buf access[4443] : 24000f6>
+<buf hit : 24000f6>
+<lat : 1>
+111<i_buf access[4461] : 24000f6>
+<miss>
+<lat : 11>
+1<d_buf access[4463] : 28000dc>
+<miss>
+<lat : 11>
+11<i_buf access[4472] : 24000f6>
+<buf hit : 24000f6>
+<lat : 1>
+1<i_buf access[4509] : 24000f6>
+<miss>
+<lat : 11>
+<i_buf access[4520] : 24000f6>
+<buf hit : 24000f6>
+<lat : 1>
+<d_buf access[4530] : 28000ec>
+<miss>
+<lat : 11>
+1e<d_buf access[4533] : 28000ec>
+<buf hit : 28000ec>
+<lat : 8>
+<i_buf access[4534] : 24000f7>
+<buf hit : 24000f7>
+<lat : 1>
+<i_buf access[4538] : 240010d>
+<miss>
+<lat : 11>
+<i_buf access[4549] : 240010d>
+<buf hit : 240010d>
+<lat : 1>
+<i_buf access[4556] : 240010e>
+<buf hit : 240010e>
+<lat : 1>
+<d_buf access[4565] : 28000dc>
+<miss>
+<lat : 11>
+<i_buf access[4569] : 240010e>
+<miss>
+<lat : 11>
+<i_buf access[4580] : 240010e>
+<buf hit : 240010e>
+<lat : 1>
+1<i_buf access[4616] : 240010e>
+<miss>
+<lat : 11>
+<i_buf access[4627] : 240010e>
+<buf hit : 240010e>
+<lat : 1>
+<i_buf access[4633] : 240010f>
+<buf hit : 240010f>
+<lat : 1>
+<i_buf access[4640] : 240010f>
+<miss>
+<lat : 11>
+<i_buf access[4651] : 240010f>
+<buf hit : 240010f>
+<lat : 1>
+<i_buf access[4651] : 240010f>
+<miss>
+<lat : 11>
+1<i_buf access[4662] : 240010f>
+<buf hit : 240010f>
+<lat : 1>
+<d_buf access[4686] : 28000dc>
+<buf hit : 28000dc>
+<lat : 1>
+<i_buf access[4691] : 2400110>
+<buf hit : 2400110>
+<lat : 1>
+<i_buf access[4691] : 2400110>
+<miss>
+<lat : 11>
+1<i_buf access[4702] : 2400110>
+<buf hit : 2400110>
+<lat : 1>
+111<i_buf access[4744] : 24000f7>
+<miss>
+<lat : 11>
+<i_buf access[4755] : 24000f7>
+<buf hit : 24000f7>
+<lat : 1>
+<i_buf access[4765] : 24000f7>
+<miss>
+<lat : 11>
+<i_buf access[4776] : 24000f7>
+<buf hit : 24000f7>
+<lat : 1>
+<i_buf access[4789] : 24000bf>
+<miss>
+<lat : 11>
+<i_buf access[4800] : 24000bf>
+<buf hit : 24000bf>
+<lat : 1>
+<d_buf access[4809] : 280002e>
+<miss>
+<lat : 11>
+<i_buf access[4810] : 24000bf>
+<miss>
+<lat : 11>
+<i_buf access[4821] : 24000bf>
+<buf hit : 24000bf>
+<lat : 1>
+<d_buf access[4824] : 2800008>
+<miss>
+<lat : 11>
+<i_buf access[4854] : 24000bf>
+<miss>
+<lat : 11>
+<d_buf access[4856] : 2800009>
+<miss>
+<lat : 11>
+<i_buf access[4865] : 24000bf>
+<buf hit : 24000bf>
+<lat : 1>
+1<d_buf access[4869] : 2800008>
+<miss>
+<lat : 11>
+1<d_buf access[4869] : 2800009>
+<miss>
+<lat : 11>
+1<i_buf access[4875] : 24000c0>
+<buf hit : 24000c0>
+<lat : 1>
+<i_buf access[4916] : 24000bb>
+<miss>
+<lat : 11>
+<i_buf access[4927] : 24000bb>
+<buf hit : 24000bb>
+<lat : 1>
+<i_buf access[4943] : 24000bc>
+<buf hit : 24000bc>
+<lat : 1>
+<d_buf access[4978] : 280002d>
+<miss>
+<lat : 11>
+<i_buf access[4979] : 24000bd>
+<buf hit : 24000bd>
+<lat : 1>
+<i_buf access[4992] : 2400231>
+<miss>
+<lat : 11>
+<i_buf access[5003] : 2400231>
+<buf hit : 2400231>
+<lat : 1>
+<i_buf access[5010] : 2400232>
+<buf hit : 2400232>
+<lat : 1>
+<i_buf access[5046] : 2400280>
+<miss>
+<lat : 11>
+<i_buf access[5057] : 2400280>
+<buf hit : 2400280>
+<lat : 1>
+<i_buf access[5097] : 2400280>
+<miss>
+<lat : 11>
+<i_buf access[5108] : 2400280>
+<buf hit : 2400280>
+<lat : 1>
+<i_buf access[5118] : 2400280>
+<miss>
+<lat : 11>
+<i_buf access[5129] : 2400280>
+<buf hit : 2400280>
+<lat : 1>
+<i_buf access[5166] : 2400281>
+<buf hit : 2400281>
+<lat : 1>
+1<d_buf access[5169] : 28000dc>
+<miss>
+<lat : 11>
+1<d_buf access[5170] : 28000dc>
+<buf hit : 28000dc>
+<lat : 10>
+111<d_buf access[5171] : 28000dc>
+<miss>
+<lat : 11>
+11<d_buf access[5202] : 28000dc>
+<buf hit : 28000dc>
+<lat : 1>
+11<d_buf access[5208] : 28000dd>
+<buf hit : 28000dd>
+<lat : 1>
+1111<d_buf access[5210] : 28000dd>
+<miss>
+<lat : 11>
+11<d_buf access[5212] : 28000dd>
+<buf hit : 28000dd>
+<lat : 9>
+11<d_buf access[5213] : 28000dd>
+<miss>
+<lat : 11>
+1<d_buf access[5214] : 28000dd>
+<buf hit : 28000dd>
+<lat : 10>
+111<d_buf access[5215] : 28000dd>
+<miss>
+<lat : 11>
+11<d_buf access[5217] : 28000dd>
+<buf hit : 28000dd>
+<lat : 9>
+11<d_buf access[5218] : 28000de>
+<buf hit : 28000de>
+<lat : 8>
+1111<d_buf access[5220] : 28000de>
+<miss>
+<lat : 11>
+11<d_buf access[5222] : 28000de>
+<buf hit : 28000de>
+<lat : 9>
+11<d_buf access[5223] : 28000de>
+<miss>
+<lat : 11>
+1<d_buf access[5224] : 28000de>
+<buf hit : 28000de>
+<lat : 10>
+111<d_buf access[5225] : 28000de>
+<miss>
+<lat : 11>
+11<d_buf access[5227] : 28000de>
+<buf hit : 28000de>
+<lat : 9>
+11<d_buf access[5228] : 28000df>
+<buf hit : 28000df>
+<lat : 8>
+1111<d_buf access[5230] : 28000df>
+<miss>
+<lat : 11>
+11<d_buf access[5232] : 28000df>
+<buf hit : 28000df>
+<lat : 9>
+11<d_buf access[5233] : 28000df>
+<miss>
+<lat : 11>
+1<d_buf access[5234] : 28000df>
+<buf hit : 28000df>
+<lat : 10>
+111<d_buf access[5235] : 28000df>
+<miss>
+<lat : 11>
+11<d_buf access[5237] : 28000df>
+<buf hit : 28000df>
+<lat : 9>
+11<d_buf access[5238] : 28000e0>
+<buf hit : 28000e0>
+<lat : 8>
+1111<d_buf access[5240] : 28000e0>
+<miss>
+<lat : 11>
+11<d_buf access[5242] : 28000e0>
+<buf hit : 28000e0>
+<lat : 9>
+11<d_buf access[5243] : 28000e0>
+<miss>
+<lat : 11>
+1<d_buf access[5244] : 28000e0>
+<buf hit : 28000e0>
+<lat : 10>
+111<d_buf access[5245] : 28000e0>
+<miss>
+<lat : 11>
+11<d_buf access[5247] : 28000e0>
+<buf hit : 28000e0>
+<lat : 9>
+11<d_buf access[5248] : 28000e1>
+<buf hit : 28000e1>
+<lat : 8>
+1111<d_buf access[5250] : 28000e1>
+<miss>
+<lat : 11>
+11<d_buf access[5252] : 28000e1>
+<buf hit : 28000e1>
+<lat : 9>
+11<d_buf access[5253] : 28000e1>
+<miss>
+<lat : 11>
+1<d_buf access[5254] : 28000e1>
+<buf hit : 28000e1>
+<lat : 10>
+111<d_buf access[5255] : 28000e1>
+<miss>
+<lat : 11>
+11<d_buf access[5257] : 28000e1>
+<buf hit : 28000e1>
+<lat : 9>
+11<d_buf access[5258] : 28000e2>
+<buf hit : 28000e2>
+<lat : 8>
+1111<d_buf access[5260] : 28000e2>
+<miss>
+<lat : 11>
+11<d_buf access[5262] : 28000e2>
+<buf hit : 28000e2>
+<lat : 9>
+11<d_buf access[5263] : 28000e2>
+<miss>
+<lat : 11>
+1<d_buf access[5264] : 28000e2>
+<buf hit : 28000e2>
+<lat : 10>
+111<d_buf access[5265] : 28000e2>
+<miss>
+<lat : 11>
+11<d_buf access[5267] : 28000e2>
+<buf hit : 28000e2>
+<lat : 9>
+11<d_buf access[5268] : 28000e3>
+<buf hit : 28000e3>
+<lat : 8>
+1111<d_buf access[5270] : 28000e3>
+<miss>
+<lat : 11>
+11<d_buf access[5272] : 28000e3>
+<buf hit : 28000e3>
+<lat : 9>
+11<d_buf access[5273] : 28000e3>
+<miss>
+<lat : 11>
+1<d_buf access[5274] : 28000e3>
+<buf hit : 28000e3>
+<lat : 10>
+111<d_buf access[5275] : 28000e3>
+<miss>
+<lat : 11>
+11<d_buf access[5277] : 28000e3>
+<buf hit : 28000e3>
+<lat : 9>
+11<d_buf access[5278] : 28000e4>
+<buf hit : 28000e4>
+<lat : 8>
+1111<d_buf access[5280] : 28000e4>
+<miss>
+<lat : 11>
+11<d_buf access[5282] : 28000e4>
+<buf hit : 28000e4>
+<lat : 9>
+11<d_buf access[5283] : 28000e4>
+<miss>
+<lat : 11>
+1<d_buf access[5284] : 28000e4>
+<buf hit : 28000e4>
+<lat : 10>
+111<d_buf access[5285] : 28000e4>
+<miss>
+<lat : 11>
+11<d_buf access[5287] : 28000e4>
+<buf hit : 28000e4>
+<lat : 9>
+11<d_buf access[5288] : 28000e5>
+<buf hit : 28000e5>
+<lat : 8>
+1111<d_buf access[5290] : 28000e5>
+<miss>
+<lat : 11>
+11<d_buf access[5292] : 28000e5>
+<buf hit : 28000e5>
+<lat : 9>
+11<d_buf access[5293] : 28000e5>
+<miss>
+<lat : 11>
+1<d_buf access[5294] : 28000e5>
+<buf hit : 28000e5>
+<lat : 10>
+111<d_buf access[5295] : 28000e5>
+<miss>
+<lat : 11>
+11<d_buf access[5297] : 28000e5>
+<buf hit : 28000e5>
+<lat : 9>
+11<d_buf access[5298] : 28000e6>
+<buf hit : 28000e6>
+<lat : 8>
+1111<d_buf access[5300] : 28000e6>
+<miss>
+<lat : 11>
+11<d_buf access[5302] : 28000e6>
+<buf hit : 28000e6>
+<lat : 9>
+11<d_buf access[5303] : 28000e6>
+<miss>
+<lat : 11>
+1<d_buf access[5304] : 28000e6>
+<buf hit : 28000e6>
+<lat : 10>
+111<d_buf access[5305] : 28000e6>
+<miss>
+<lat : 11>
+11<d_buf access[5307] : 28000e6>
+<buf hit : 28000e6>
+<lat : 9>
+11<d_buf access[5308] : 28000e7>
+<buf hit : 28000e7>
+<lat : 8>
+1111<d_buf access[5310] : 28000e7>
+<miss>
+<lat : 11>
+11<d_buf access[5312] : 28000e7>
+<buf hit : 28000e7>
+<lat : 9>
+11<d_buf access[5313] : 28000e7>
+<miss>
+<lat : 11>
+1<d_buf access[5314] : 28000e7>
+<buf hit : 28000e7>
+<lat : 10>
+111<d_buf access[5315] : 28000e7>
+<miss>
+<lat : 11>
+11<d_buf access[5317] : 28000e7>
+<buf hit : 28000e7>
+<lat : 9>
+11<d_buf access[5318] : 28000e8>
+<buf hit : 28000e8>
+<lat : 8>
+1111<d_buf access[5320] : 28000e8>
+<miss>
+<lat : 11>
+11<d_buf access[5322] : 28000e8>
+<buf hit : 28000e8>
+<lat : 9>
+11<d_buf access[5323] : 28000e8>
+<miss>
+<lat : 11>
+1<d_buf access[5324] : 28000e8>
+<buf hit : 28000e8>
+<lat : 10>
+111<d_buf access[5325] : 28000e8>
+<miss>
+<lat : 11>
+11<d_buf access[5327] : 28000e8>
+<buf hit : 28000e8>
+<lat : 9>
+11<d_buf access[5328] : 28000e9>
+<buf hit : 28000e9>
+<lat : 8>
+1111<d_buf access[5330] : 28000e9>
+<miss>
+<lat : 11>
+11<d_buf access[5332] : 28000e9>
+<buf hit : 28000e9>
+<lat : 9>
+11<d_buf access[5333] : 28000e9>
+<miss>
+<lat : 11>
+1<d_buf access[5334] : 28000e9>
+<buf hit : 28000e9>
+<lat : 10>
+111<d_buf access[5335] : 28000e9>
+<miss>
+<lat : 11>
+11<d_buf access[5337] : 28000e9>
+<buf hit : 28000e9>
+<lat : 9>
+11<d_buf access[5338] : 28000ea>
+<buf hit : 28000ea>
+<lat : 8>
+1111<d_buf access[5340] : 28000ea>
+<miss>
+<lat : 11>
+11<d_buf access[5342] : 28000ea>
+<buf hit : 28000ea>
+<lat : 9>
+11<d_buf access[5343] : 28000ea>
+<miss>
+<lat : 11>
+1<d_buf access[5344] : 28000ea>
+<buf hit : 28000ea>
+<lat : 10>
+111<d_buf access[5345] : 28000ea>
+<miss>
+<lat : 11>
+11<d_buf access[5347] : 28000ea>
+<buf hit : 28000ea>
+<lat : 9>
+11<d_buf access[5348] : 28000eb>
+<buf hit : 28000eb>
+<lat : 8>
+1111<d_buf access[5350] : 28000eb>
+<miss>
+<lat : 11>
+11<d_buf access[5352] : 28000eb>
+<buf hit : 28000eb>
+<lat : 9>
+11<d_buf access[5353] : 28000eb>
+<miss>
+<lat : 11>
+1<d_buf access[5354] : 28000eb>
+<buf hit : 28000eb>
+<lat : 10>
+111<d_buf access[5355] : 28000eb>
+<miss>
+<lat : 11>
+11<d_buf access[5357] : 28000eb>
+<buf hit : 28000eb>
+<lat : 9>
+1<i_buf access[5362] : 2400281>
+<miss>
+<lat : 11>
+<i_buf access[5373] : 2400281>
+<buf hit : 2400281>
+<lat : 1>
+11<d_buf access[5388] : 28000ec>
+<buf hit : 28000ec>
+<lat : 1>
+11111<i_buf access[5406] : 240011d>
+<miss>
+<lat : 11>
+1<i_buf access[5417] : 240011d>
+<buf hit : 240011d>
+<lat : 1>
+<i_buf access[5431] : 2400231>
+<miss>
+<lat : 11>
+111<i_buf access[5442] : 2400231>
+<buf hit : 2400231>
+<lat : 1>
+1111<d_buf access[5456] : 2800030>
+<miss>
+<lat : 11>
+<d_buf access[5456] : 280002d>
+<miss>
+<lat : 11>
+11<d_buf access[5473] : 2800030>
+<miss>
+<lat : 11>
+<d_buf access[5476] : 2800042>
+<miss>
+<lat : 11>
+1111111<d_buf access[5494] : 2800030>
+<miss>
+<lat : 11>
+<d_buf access[5495] : 2800008>
+<miss>
+<lat : 11>
+<d_buf access[5495] : 2800011>
+<miss>
+<lat : 11>
+<i_buf access[5495] : 24000f1>
+<miss>
+<lat : 11>
+<d_buf access[5496] : 280002f>
+<miss>
+<lat : 11>
+<i_buf access[5506] : 24000f1>
+<buf hit : 24000f1>
+<lat : 1>
+111111<i_buf access[5526] : 24000f3>
+<miss>
+<lat : 11>
+<i_buf access[5537] : 24000f3>
+<buf hit : 24000f3>
+<lat : 1>
+<i_buf access[5569] : 24000f3>
+<miss>
+<lat : 11>
+<i_buf access[5580] : 24000f3>
+<buf hit : 24000f3>
+<lat : 1>
+<i_buf access[5604] : 24000f4>
+<buf hit : 24000f4>
+<lat : 1>
+<d_buf access[5621] : 280002d>
+<miss>
+<lat : 11>
+<i_buf access[5625] : 240010a>
+<miss>
+<lat : 11>
+<i_buf access[5631] : 240010d>
+<miss>
+<lat : 11>
+<i_buf access[5642] : 240010d>
+<buf hit : 240010d>
+<lat : 1>
+<d_buf access[5651] : 280002d>
+<buf hit : 280002d>
+<lat : 1>
+11<d_buf access[5663] : 28000fc>
+<miss>
+<lat : 11>
+1<d_buf access[5663] : 28000fc>
+<buf hit : 28000fc>
+<lat : 11>
+111111<d_buf access[5692] : 280002e>
+<miss>
+<lat : 11>
+<d_buf access[5694] : 2800009>
+<miss>
+<lat : 11>
+<d_buf access[5694] : 2800008>
+<miss>
+<lat : 11>
+1<d_buf access[5708] : 2800008>
+<buf hit : 2800008>
+<lat : 1>
+1<d_buf access[5708] : 2800009>
+<buf hit : 2800009>
+<lat : 1>
+11<d_buf access[5740] : 28000ec>
+<miss>
+<lat : 11>
+1<d_buf access[5740] : 28000ec>
+<buf hit : 28000ec>
+<lat : 11>
+111<d_buf access[5742] : 28000ec>
+<miss>
+<lat : 11>
+11<d_buf access[5743] : 28000ec>
+<buf hit : 28000ec>
+<lat : 10>
+11<d_buf access[5744] : 28000ed>
+<buf hit : 28000ed>
+<lat : 9>
+1111<d_buf access[5746] : 28000ed>
+<miss>
+<lat : 11>
+11<d_buf access[5748] : 28000ed>
+<buf hit : 28000ed>
+<lat : 9>
+11<d_buf access[5749] : 28000ed>
+<miss>
+<lat : 11>
+1<d_buf access[5750] : 28000ed>
+<buf hit : 28000ed>
+<lat : 10>
+111<d_buf access[5751] : 28000ed>
+<miss>
+<lat : 11>
+11<d_buf access[5753] : 28000ed>
+<buf hit : 28000ed>
+<lat : 9>
+11<d_buf access[5754] : 28000ee>
+<buf hit : 28000ee>
+<lat : 8>
+1111<d_buf access[5756] : 28000ee>
+<miss>
+<lat : 11>
+11<d_buf access[5758] : 28000ee>
+<buf hit : 28000ee>
+<lat : 9>
+11<d_buf access[5759] : 28000ee>
+<miss>
+<lat : 11>
+1<d_buf access[5760] : 28000ee>
+<buf hit : 28000ee>
+<lat : 10>
+111<d_buf access[5761] : 28000ee>
+<miss>
+<lat : 11>
+11<d_buf access[5763] : 28000ee>
+<buf hit : 28000ee>
+<lat : 9>
+11<d_buf access[5764] : 28000ef>
+<buf hit : 28000ef>
+<lat : 8>
+1111<d_buf access[5766] : 28000ef>
+<miss>
+<lat : 11>
+11<d_buf access[5768] : 28000ef>
+<buf hit : 28000ef>
+<lat : 9>
+11<d_buf access[5769] : 28000ef>
+<miss>
+<lat : 11>
+1<d_buf access[5770] : 28000ef>
+<buf hit : 28000ef>
+<lat : 10>
+111<d_buf access[5771] : 28000ef>
+<miss>
+<lat : 11>
+11<d_buf access[5773] : 28000ef>
+<buf hit : 28000ef>
+<lat : 9>
+11<d_buf access[5774] : 28000f0>
+<buf hit : 28000f0>
+<lat : 8>
+1111<d_buf access[5776] : 28000f0>
+<miss>
+<lat : 11>
+11<d_buf access[5778] : 28000f0>
+<buf hit : 28000f0>
+<lat : 9>
+11<d_buf access[5779] : 28000f0>
+<miss>
+<lat : 11>
+1<d_buf access[5780] : 28000f0>
+<buf hit : 28000f0>
+<lat : 10>
+111<d_buf access[5781] : 28000f0>
+<miss>
+<lat : 11>
+11<d_buf access[5783] : 28000f0>
+<buf hit : 28000f0>
+<lat : 9>
+11<d_buf access[5784] : 28000f1>
+<buf hit : 28000f1>
+<lat : 8>
+1111<d_buf access[5786] : 28000f1>
+<miss>
+<lat : 11>
+11<d_buf access[5788] : 28000f1>
+<buf hit : 28000f1>
+<lat : 9>
+11<d_buf access[5789] : 28000f1>
+<miss>
+<lat : 11>
+1<d_buf access[5790] : 28000f1>
+<buf hit : 28000f1>
+<lat : 10>
+111<d_buf access[5791] : 28000f1>
+<miss>
+<lat : 11>
+11<d_buf access[5793] : 28000f1>
+<buf hit : 28000f1>
+<lat : 9>
+11<d_buf access[5794] : 28000f2>
+<buf hit : 28000f2>
+<lat : 8>
+1111<d_buf access[5796] : 28000f2>
+<miss>
+<lat : 11>
+11<d_buf access[5798] : 28000f2>
+<buf hit : 28000f2>
+<lat : 9>
+11<d_buf access[5799] : 28000f2>
+<miss>
+<lat : 11>
+1<d_buf access[5800] : 28000f2>
+<buf hit : 28000f2>
+<lat : 10>
+111<d_buf access[5801] : 28000f2>
+<miss>
+<lat : 11>
+11<d_buf access[5803] : 28000f2>
+<buf hit : 28000f2>
+<lat : 9>
+11<d_buf access[5804] : 28000f3>
+<buf hit : 28000f3>
+<lat : 8>
+1111<d_buf access[5806] : 28000f3>
+<miss>
+<lat : 11>
+11<d_buf access[5808] : 28000f3>
+<buf hit : 28000f3>
+<lat : 9>
+11<d_buf access[5809] : 28000f3>
+<miss>
+<lat : 11>
+1<d_buf access[5810] : 28000f3>
+<buf hit : 28000f3>
+<lat : 10>
+111<d_buf access[5811] : 28000f3>
+<miss>
+<lat : 11>
+11<d_buf access[5813] : 28000f3>
+<buf hit : 28000f3>
+<lat : 9>
+11<d_buf access[5814] : 28000f4>
+<buf hit : 28000f4>
+<lat : 8>
+1111<d_buf access[5816] : 28000f4>
+<miss>
+<lat : 11>
+11<d_buf access[5818] : 28000f4>
+<buf hit : 28000f4>
+<lat : 9>
+11<d_buf access[5819] : 28000f4>
+<miss>
+<lat : 11>
+1<d_buf access[5820] : 28000f4>
+<buf hit : 28000f4>
+<lat : 10>
+111<d_buf access[5821] : 28000f4>
+<miss>
+<lat : 11>
+11<d_buf access[5823] : 28000f4>
+<buf hit : 28000f4>
+<lat : 9>
+11<d_buf access[5824] : 28000f5>
+<buf hit : 28000f5>
+<lat : 8>
+1111<d_buf access[5826] : 28000f5>
+<miss>
+<lat : 11>
+11<d_buf access[5828] : 28000f5>
+<buf hit : 28000f5>
+<lat : 9>
+11<d_buf access[5829] : 28000f5>
+<miss>
+<lat : 11>
+1<d_buf access[5830] : 28000f5>
+<buf hit : 28000f5>
+<lat : 10>
+111<d_buf access[5831] : 28000f5>
+<miss>
+<lat : 11>
+11<d_buf access[5833] : 28000f5>
+<buf hit : 28000f5>
+<lat : 9>
+11<d_buf access[5834] : 28000f6>
+<buf hit : 28000f6>
+<lat : 8>
+1111<d_buf access[5836] : 28000f6>
+<miss>
+<lat : 11>
+11<d_buf access[5838] : 28000f6>
+<buf hit : 28000f6>
+<lat : 9>
+11<d_buf access[5839] : 28000f6>
+<miss>
+<lat : 11>
+1<d_buf access[5840] : 28000f6>
+<buf hit : 28000f6>
+<lat : 10>
+111<d_buf access[5841] : 28000f6>
+<miss>
+<lat : 11>
+11<d_buf access[5843] : 28000f6>
+<buf hit : 28000f6>
+<lat : 9>
+11<d_buf access[5844] : 28000f7>
+<buf hit : 28000f7>
+<lat : 8>
+1111<d_buf access[5846] : 28000f7>
+<miss>
+<lat : 11>
+11<d_buf access[5848] : 28000f7>
+<buf hit : 28000f7>
+<lat : 9>
+11<d_buf access[5849] : 28000f7>
+<miss>
+<lat : 11>
+1<d_buf access[5850] : 28000f7>
+<buf hit : 28000f7>
+<lat : 10>
+111<d_buf access[5851] : 28000f7>
+<miss>
+<lat : 11>
+11<d_buf access[5853] : 28000f7>
+<buf hit : 28000f7>
+<lat : 9>
+11<d_buf access[5854] : 28000f8>
+<buf hit : 28000f8>
+<lat : 8>
+1111<d_buf access[5856] : 28000f8>
+<miss>
+<lat : 11>
+11<d_buf access[5858] : 28000f8>
+<buf hit : 28000f8>
+<lat : 9>
+11<d_buf access[5859] : 28000f8>
+<miss>
+<lat : 11>
+1<d_buf access[5860] : 28000f8>
+<buf hit : 28000f8>
+<lat : 10>
+111<d_buf access[5861] : 28000f8>
+<miss>
+<lat : 11>
+11<d_buf access[5863] : 28000f8>
+<buf hit : 28000f8>
+<lat : 9>
+11<d_buf access[5864] : 28000f9>
+<buf hit : 28000f9>
+<lat : 8>
+1111<d_buf access[5866] : 28000f9>
+<miss>
+<lat : 11>
+11<d_buf access[5868] : 28000f9>
+<buf hit : 28000f9>
+<lat : 9>
+11<d_buf access[5869] : 28000f9>
+<miss>
+<lat : 11>
+1<d_buf access[5870] : 28000f9>
+<buf hit : 28000f9>
+<lat : 10>
+111<d_buf access[5871] : 28000f9>
+<miss>
+<lat : 11>
+11<d_buf access[5873] : 28000f9>
+<buf hit : 28000f9>
+<lat : 9>
+11<d_buf access[5874] : 28000fa>
+<buf hit : 28000fa>
+<lat : 8>
+1111<d_buf access[5876] : 28000fa>
+<miss>
+<lat : 11>
+11<d_buf access[5878] : 28000fa>
+<buf hit : 28000fa>
+<lat : 9>
+11<d_buf access[5879] : 28000fa>
+<miss>
+<lat : 11>
+1<d_buf access[5880] : 28000fa>
+<buf hit : 28000fa>
+<lat : 10>
+111<d_buf access[5881] : 28000fa>
+<miss>
+<lat : 11>
+11<d_buf access[5883] : 28000fa>
+<buf hit : 28000fa>
+<lat : 9>
+11<d_buf access[5884] : 28000fb>
+<buf hit : 28000fb>
+<lat : 8>
+1111<d_buf access[5886] : 28000fb>
+<miss>
+<lat : 11>
+11<d_buf access[5888] : 28000fb>
+<buf hit : 28000fb>
+<lat : 9>
+11<d_buf access[5889] : 28000fb>
+<miss>
+<lat : 11>
+1<d_buf access[5890] : 28000fb>
+<buf hit : 28000fb>
+<lat : 10>
+111<d_buf access[5891] : 28000fb>
+<miss>
+<lat : 11>
+11<d_buf access[5893] : 28000fb>
+<buf hit : 28000fb>
+<lat : 9>
+111<d_buf access[5901] : 28000fc>
+<buf hit : 28000fc>
+<lat : 1>
+11111<i_buf access[5919] : 240011e>
+<miss>
+<lat : 11>
+<i_buf access[5930] : 240011e>
+<buf hit : 240011e>
+<lat : 1>
+<d_buf access[5967] : 2800013>
+<miss>
+<lat : 11>
+1<i_buf access[5972] : 240011e>
+<miss>
+<lat : 11>
+<i_buf access[5983] : 240011e>
+<buf hit : 240011e>
+<lat : 1>
+<d_buf access[5986] : 2800013>
+<buf hit : 2800013>
+<lat : 1>
+11<i_buf access[5993] : 240011e>
+<miss>
+<lat : 11>
+<i_buf access[6004] : 240011e>
+<buf hit : 240011e>
+<lat : 1>
+<i_buf access[6010] : 240011e>
+<miss>
+<lat : 11>
+<i_buf access[6021] : 240011e>
+<buf hit : 240011e>
+<lat : 1>
+<i_buf access[6036] : 240011f>
+<buf hit : 240011f>
+<lat : 1>
+1<d_buf access[6042] : 2800045>
+<miss>
+<lat : 11>
+1<i_buf access[6069] : 240011f>
+<miss>
+<lat : 11>
+<i_buf access[6080] : 240011f>
+<buf hit : 240011f>
+<lat : 1>
+<i_buf access[6086] : 2400136>
+<miss>
+<lat : 11>
+<i_buf access[6097] : 2400136>
+<buf hit : 2400136>
+<lat : 1>
+<d_buf access[6138] : 2800032>
+<miss>
+<lat : 11>
+<i_buf access[6139] : 2400136>
+<miss>
+<lat : 11>
+<i_buf access[6150] : 2400136>
+<buf hit : 2400136>
+<lat : 1>
+<i_buf access[6183] : 2400137>
+<buf hit : 2400137>
+<lat : 1>
+<d_buf access[6185] : 2800013>
+<miss>
+<lat : 11>
+<d_buf access[6185] : 2800032>
+<miss>
+<lat : 11>
+1111111<i_buf access[6222] : 2400148>
+<miss>
+<lat : 11>
+11<d_buf access[6227] : 2800045>
+<miss>
+<lat : 11>
+1<i_buf access[6231] : 2400148>
+<buf hit : 2400148>
+<lat : 2>
+1<i_buf access[6245] : 2400294>
+<miss>
+<lat : 11>
+<i_buf access[6256] : 2400294>
+<buf hit : 2400294>
+<lat : 1>
+<i_buf access[6268] : 24000ab>
+<miss>
+<lat : 11>
+<i_buf access[6279] : 24000ab>
+<buf hit : 24000ab>
+<lat : 1>
+<i_buf access[6286] : 24000ab>
+<miss>
+<lat : 11>
+<d_buf access[6291] : 2800045>
+<buf hit : 2800045>
+<lat : 1>
+1<i_buf access[6297] : 24000ab>
+<buf hit : 24000ab>
+<lat : 1>
+<d_buf access[6333] : 2800000>
+<miss>
+<lat : 11>
+<i_buf access[6348] : 24000ac>
+<buf hit : 24000ac>
+<lat : 1>
+<i_buf access[6380] : 24000ac>
+<miss>
+<lat : 11>
+1<i_buf access[6391] : 24000ac>
+<buf hit : 24000ac>
+<lat : 1>
+1<i_buf access[6424] : 24000ac>
+<miss>
+<lat : 11>
+11<d_buf access[6427] : 2800041>
+<miss>
+<lat : 11>
+<d_buf access[6427] : 280002c>
+<miss>
+<lat : 11>
+<i_buf access[6435] : 24000ac>
+<buf hit : 24000ac>
+<lat : 1>
+1<i_buf access[6446] : 24000b3>
+<miss>
+<lat : 11>
+<i_buf access[6457] : 24000b3>
+<buf hit : 24000b3>
+<lat : 1>
+<i_buf access[6490] : 24000b4>
+<buf hit : 24000b4>
+<lat : 1>
+11111<i_buf access[6523] : 24000b4>
+<miss>
+<lat : 11>
+111111<i_buf access[6534] : 24000b4>
+<buf hit : 24000b4>
+<lat : 1>
+1<i_buf access[6541] : 24000b4>
+<miss>
+<lat : 11>
+11111<i_buf access[6552] : 24000b4>
+<buf hit : 24000b4>
+<lat : 1>
+<d_buf access[6587] : 2800017>
+<miss>
+<lat : 11>
+<i_buf access[6588] : 24000b4>
+<miss>
+<lat : 11>
+<i_buf access[6599] : 24000b4>
+<buf hit : 24000b4>
+<lat : 1>
+<i_buf access[6605] : 24000b5>
+<buf hit : 24000b5>
+<lat : 1>
+<d_buf access[6645] : 2800014>
+<miss>
+<lat : 11>
+1<d_buf access[6646] : 2800017>
+<miss>
+<lat : 11>
+<d_buf access[6649] : 2800017>
+<buf hit : 2800017>
+<lat : 8>
+<d_buf access[6666] : 2800012>
+<miss>
+<lat : 11>
+<d_buf access[6678] : 2800017>
+<miss>
+<lat : 11>
+11<i_buf access[6683] : 24000b5>
+<miss>
+<lat : 11>
+1<i_buf access[6694] : 24000b5>
+<buf hit : 24000b5>
+<lat : 1>
+<i_buf access[6707] : 24000b6>
+<buf hit : 24000b6>
+<lat : 1>
+<i_buf access[6707] : 24000b6>
+<miss>
+<lat : 11>
+<i_buf access[6718] : 24000b6>
+<buf hit : 24000b6>
+<lat : 1>
+<i_buf access[6754] : 240017f>
+<miss>
+<lat : 11>
+<i_buf access[6765] : 240017f>
+<buf hit : 240017f>
+<lat : 1>
+<i_buf access[6797] : 240017f>
+<miss>
+<lat : 11>
+<d_buf access[6800] : 23ff2cf>
+<miss>
+<lat : 11>
+<i_buf access[6808] : 240017f>
+<buf hit : 240017f>
+<lat : 1>
+<d_buf access[6812] : 23ff2cf>
+<buf hit : 23ff2cf>
+<lat : 1>
+1<i_buf access[6841] : 240017f>
+<miss>
+<lat : 11>
+<d_buf access[6844] : 23ff2cf>
+<miss>
+<lat : 11>
+1<d_buf access[6844] : 23ff2cf>
+<buf hit : 23ff2cf>
+<lat : 11>
+111<d_buf access[6846] : 23ff2d0>
+<buf hit : 23ff2d0>
+<lat : 9>
+111<i_buf access[6852] : 240017f>
+<buf hit : 240017f>
+<lat : 1>
+<d_buf access[6856] : 23ff2d0>
+<miss>
+<lat : 11>
+1<i_buf access[6859] : 2400180>
+<buf hit : 2400180>
+<lat : 1>
+<d_buf access[6861] : 23ff2d0>
+<buf hit : 23ff2d0>
+<lat : 6>
+11<i_buf access[6893] : 2400180>
+<miss>
+<lat : 11>
+<d_buf access[6895] : 23ff2d0>
+<miss>
+<lat : 11>
+1<d_buf access[6895] : 23ff2d0>
+<buf hit : 23ff2d0>
+<lat : 11>
+11111<d_buf access[6898] : 23ff2d0>
+<miss>
+<lat : 11>
+1<i_buf access[6904] : 2400180>
+<buf hit : 2400180>
+<lat : 1>
+<d_buf access[6908] : 23ff2d0>
+<buf hit : 23ff2d0>
+<lat : 1>
+1<i_buf access[6914] : 2400257>
+<miss>
+<lat : 11>
+<i_buf access[6944] : 2400257>
+<buf hit : 2400257>
+<lat : 1>
+<i_buf access[6978] : 2400180>
+<miss>
+<lat : 11>
+<d_buf access[6979] : 2800044>
+<miss>
+<lat : 11>
+<i_buf access[6989] : 2400180>
+<buf hit : 2400180>
+<lat : 1>
+<d_buf access[6991] : 240009a>
+<miss>
+<lat : 11>
+1<i_buf access[7022] : 2400180>
+<miss>
+<lat : 11>
+111<d_buf access[7025] : 23ff2d1>
+<miss>
+<lat : 11>
+1<d_buf access[7026] : 23ff2d1>
+<buf hit : 23ff2d1>
+<lat : 10>
+1<d_buf access[7026] : 2800000>
+<miss>
+<lat : 11>
+<i_buf access[7033] : 2400180>
+<buf hit : 2400180>
+<lat : 1>
+<i_buf access[7047] : 2400181>
+<buf hit : 2400181>
+<lat : 1>
+<i_buf access[7083] : 2400181>
+<miss>
+<lat : 11>
+<i_buf access[7094] : 2400181>
+<buf hit : 2400181>
+<lat : 1>
+<i_buf access[7101] : 2400181>
+<miss>
+<lat : 11>
+<i_buf access[7112] : 2400181>
+<buf hit : 2400181>
+<lat : 1>
+<i_buf access[7145] : 2400181>
+<miss>
+<lat : 11>
+<i_buf access[7156] : 2400181>
+<buf hit : 2400181>
+<lat : 1>
+<i_buf access[7187] : 2400182>
+<buf hit : 2400182>
+<lat : 1>
+<i_buf access[7193] : 2400182>
+<miss>
+<lat : 11>
+<i_buf access[7204] : 2400182>
+<buf hit : 2400182>
+<lat : 1>
+<d_buf access[7207] : 2800000>
+<buf hit : 2800000>
+<lat : 1>
+<i_buf access[7220] : 2400182>
+<miss>
+<lat : 11>
+<i_buf access[7231] : 2400182>
+<buf hit : 2400182>
+<lat : 1>
+<i_buf access[7267] : 2400183>
+<buf hit : 2400183>
+<lat : 1>
+<i_buf access[7300] : 2400183>
+<miss>
+<lat : 11>
+1<i_buf access[7311] : 2400183>
+<buf hit : 2400183>
+<lat : 1>
+<i_buf access[7326] : 2400219>
+<miss>
+<lat : 11>
+<i_buf access[7337] : 2400219>
+<buf hit : 2400219>
+<lat : 1>
+<i_buf access[7352] : 2400219>
+<miss>
+<lat : 11>
+<i_buf access[7363] : 2400219>
+<buf hit : 2400219>
+<lat : 1>
+<i_buf access[7399] : 2400219>
+<miss>
+<lat : 11>
+<i_buf access[7410] : 2400219>
+<buf hit : 2400219>
+<lat : 1>
+<i_buf access[7421] : 2400184>
+<miss>
+<lat : 11>
+<d_buf access[7424] : 23ff2da>
+<miss>
+<lat : 11>
+1<i_buf access[7432] : 2400184>
+<buf hit : 2400184>
+<lat : 1>
+1<i_buf access[7468] : 2400189>
+<miss>
+<lat : 11>
+<i_buf access[7479] : 2400189>
+<buf hit : 2400189>
+<lat : 1>
+<i_buf access[7511] : 240018a>
+<buf hit : 240018a>
+<lat : 1>
+1<i_buf access[7548] : 240018a>
+<miss>
+<lat : 11>
+<i_buf access[7559] : 240018a>
+<buf hit : 240018a>
+<lat : 1>
+<i_buf access[7566] : 240018a>
+<miss>
+<lat : 11>
+<i_buf access[7577] : 240018a>
+<buf hit : 240018a>
+<lat : 1>
+1<i_buf access[7610] : 240018a>
+<miss>
+<lat : 11>
+<i_buf access[7621] : 240018a>
+<buf hit : 240018a>
+<lat : 1>
+<i_buf access[7628] : 240018b>
+<buf hit : 240018b>
+<lat : 1>
+<i_buf access[7661] : 240018b>
+<miss>
+<lat : 11>
+<i_buf access[7672] : 240018b>
+<buf hit : 240018b>
+<lat : 1>
+<i_buf access[7683] : 240018b>
+<miss>
+<lat : 11>
+<i_buf access[7694] : 240018b>
+<buf hit : 240018b>
+<lat : 1>
+<i_buf access[7734] : 240018c>
+<buf hit : 240018c>
+<lat : 1>
+<i_buf access[7767] : 240018c>
+<miss>
+<lat : 11>
+<i_buf access[7778] : 240018c>
+<buf hit : 240018c>
+<lat : 1>
+<i_buf access[7789] : 240018c>
+<miss>
+<lat : 11>
+<d_buf access[7792] : 2800037>
+<miss>
+<lat : 11>
+<i_buf access[7800] : 240018c>
+<buf hit : 240018c>
+<lat : 1>
+<d_buf access[7805] : 2400019>
+<miss>
+<lat : 11>
+<i_buf access[7839] : 240018c>
+<miss>
+<lat : 11>
+<i_buf access[7850] : 240018c>
+<buf hit : 240018c>
+<lat : 1>
+<i_buf access[7856] : 240018d>
+<buf hit : 240018d>
+<lat : 1>
+<i_buf access[7892] : 240018d>
+<miss>
+<lat : 11>
+<i_buf access[7903] : 240018d>
+<buf hit : 240018d>
+<lat : 1>
+<i_buf access[7909] : 240018d>
+<miss>
+<lat : 11>
+<i_buf access[7920] : 240018d>
+<buf hit : 240018d>
+<lat : 1>
+<i_buf access[7953] : 240018d>
+<miss>
+<lat : 11>
+<d_buf access[7964] : 2800037>
+<miss>
+<lat : 11>
+<d_buf access[7977] : 2400019>
+<miss>
+<lat : 11>
+<i_buf access[7993] : 240018d>
+<buf hit : 240018d>
+<lat : 1>
+1<i_buf access[8000] : 240018e>
+<buf hit : 240018e>
+<lat : 1>
+1<d_buf access[8035] : 2800037>
+<miss>
+<lat : 11>
+<d_buf access[8048] : 2400016>
+<miss>
+<lat : 11>
+<i_buf access[8064] : 240018f>
+<buf hit : 240018f>
+<lat : 1>
+<i_buf access[8097] : 240018f>
+<miss>
+<lat : 11>
+<i_buf access[8108] : 240018f>
+<buf hit : 240018f>
+<lat : 1>
+<i_buf access[8115] : 240018f>
+<miss>
+<lat : 11>
+<i_buf access[8126] : 240018f>
+<buf hit : 240018f>
+<lat : 1>
+<i_buf access[8159] : 240018f>
+<miss>
+<lat : 11>
+1<i_buf access[8170] : 240018f>
+<buf hit : 240018f>
+<lat : 1>
+<i_buf access[8177] : 2400190>
+<buf hit : 2400190>
+<lat : 1>
+<i_buf access[8210] : 2400190>
+<miss>
+<lat : 11>
+1<i_buf access[8217] : 2400192>
+<miss>
+<lat : 11>
+<i_buf access[8228] : 2400192>
+<buf hit : 2400192>
+<lat : 1>
+<i_buf access[8265] : 2400192>
+<miss>
+<lat : 11>
+<d_buf access[8267] : 2800037>
+<miss>
+<lat : 11>
+<i_buf access[8276] : 2400192>
+<buf hit : 2400192>
+<lat : 1>
+<d_buf access[8280] : 2400015>
+<miss>
+<lat : 11>
+<i_buf access[8296] : 2400193>
+<buf hit : 2400193>
+<lat : 1>
+<i_buf access[8339] : 2400194>
+<buf hit : 2400194>
+<lat : 1>
+<i_buf access[8375] : 2400194>
+<miss>
+<lat : 11>
+<d_buf access[8378] : 2800037>
+<miss>
+<lat : 11>
+<i_buf access[8386] : 2400194>
+<buf hit : 2400194>
+<lat : 1>
+<d_buf access[8421] : 2400014>
+<miss>
+<lat : 11>
+<i_buf access[8437] : 240019b>
+<miss>
+<lat : 11>
+<i_buf access[8448] : 240019b>
+<buf hit : 240019b>
+<lat : 1>
+<i_buf access[8485] : 240019c>
+<buf hit : 240019c>
+<lat : 1>
+1<i_buf access[8523] : 240019c>
+<miss>
+<lat : 11>
+<i_buf access[8534] : 240019c>
+<buf hit : 240019c>
+<lat : 1>
+<i_buf access[8567] : 240019c>
+<miss>
+<lat : 11>
+<i_buf access[8574] : 240019d>
+<miss>
+<lat : 11>
+<i_buf access[8585] : 240019d>
+<buf hit : 240019d>
+<lat : 1>
+1<i_buf access[8621] : 240019d>
+<miss>
+<lat : 11>
+<i_buf access[8632] : 240019d>
+<buf hit : 240019d>
+<lat : 1>
+<i_buf access[8668] : 240019d>
+<miss>
+<lat : 11>
+<i_buf access[8674] : 240019e>
+<miss>
+<lat : 11>
+<i_buf access[8685] : 240019e>
+<buf hit : 240019e>
+<lat : 1>
+<i_buf access[8721] : 240019e>
+<miss>
+<lat : 11>
+<i_buf access[8732] : 240019e>
+<buf hit : 240019e>
+<lat : 1>
+<i_buf access[8739] : 240019f>
+<buf hit : 240019f>
+<lat : 1>
+<d_buf access[8741] : 23ff2d7>
+<miss>
+<lat : 11>
+<d_buf access[8743] : 2400012>
+<miss>
+<lat : 11>
+<i_buf access[8772] : 240019f>
+<miss>
+<lat : 11>
+<d_buf access[8777] : 23ff2d7>
+<miss>
+<lat : 11>
+1<i_buf access[8778] : 24001a0>
+<miss>
+<lat : 11>
+<i_buf access[8808] : 24001a0>
+<buf hit : 24001a0>
+<lat : 1>
+<d_buf access[8843] : 2800038>
+<miss>
+<lat : 11>
+<i_buf access[8844] : 24001a1>
+<buf hit : 24001a1>
+<lat : 1>
+<i_buf access[8880] : 24001a1>
+<miss>
+<lat : 11>
+<i_buf access[8891] : 24001a1>
+<buf hit : 24001a1>
+<lat : 1>
+<i_buf access[8905] : 24001a1>
+<miss>
+<lat : 11>
+<i_buf access[8916] : 24001a1>
+<buf hit : 24001a1>
+<lat : 1>
+<i_buf access[8953] : 24001a2>
+<buf hit : 24001a2>
+<lat : 1>
+1<i_buf access[8989] : 24001a2>
+<miss>
+<lat : 11>
+<i_buf access[9000] : 24001a2>
+<buf hit : 24001a2>
+<lat : 1>
+<i_buf access[9000] : 24001a3>
+<buf hit : 24001a3>
+<lat : 1>
+<i_buf access[9033] : 24001a3>
+<miss>
+<lat : 11>
+<i_buf access[9040] : 2400193>
+<miss>
+<lat : 11>
+<i_buf access[9051] : 2400193>
+<buf hit : 2400193>
+<lat : 1>
+<i_buf access[9084] : 2400193>
+<miss>
+<lat : 11>
+<i_buf access[9095] : 2400193>
+<buf hit : 2400193>
+<lat : 1>
+<i_buf access[9102] : 2400194>
+<buf hit : 2400194>
+<lat : 1>
+111<i_buf access[9114] : 24001c8>
+<miss>
+<lat : 11>
+<i_buf access[9144] : 24001c8>
+<buf hit : 24001c8>
+<lat : 1>
+<i_buf access[9176] : 24001c8>
+<miss>
+<lat : 11>
+<i_buf access[9187] : 24001c8>
+<buf hit : 24001c8>
+<lat : 1>
+<i_buf access[9194] : 24001c9>
+<buf hit : 24001c9>
+<lat : 1>
+1<i_buf access[9227] : 24001c9>
+<miss>
+<lat : 11>
+11<i_buf access[9234] : 24001cb>
+<miss>
+<lat : 11>
+<i_buf access[9245] : 24001cb>
+<buf hit : 24001cb>
+<lat : 1>
+<i_buf access[9283] : 24001ce>
+<miss>
+<lat : 11>
+<i_buf access[9294] : 24001ce>
+<buf hit : 24001ce>
+<lat : 1>
+<i_buf access[9294] : 24001ce>
+<miss>
+<lat : 11>
+<i_buf access[9305] : 24001ce>
+<buf hit : 24001ce>
+<lat : 1>
+<i_buf access[9331] : 24001cf>
+<buf hit : 24001cf>
+<lat : 1>
+<d_buf access[9336] : 23ff2da>
+<miss>
+<lat : 11>
+<d_buf access[9368] : 23ff2da>
+<buf hit : 23ff2da>
+<lat : 1>
+11<i_buf access[9368] : 24001d1>
+<miss>
+<lat : 11>
+<i_buf access[9379] : 24001d1>
+<buf hit : 24001d1>
+<lat : 1>
+<i_buf access[9411] : 24001d1>
+<miss>
+<lat : 11>
+11111111111111<d_buf access[9461] : 23ff2da>
+<miss>
+<lat : 11>
+<d_buf access[9475] : 23ff2da>
+<buf hit : 23ff2da>
+<lat : 1>
+11111111111111<i_buf access[9533] : 24001d1>
+<buf hit : 24001d1>
+<lat : 1>
+<i_buf access[9545] : 24001d8>
+<miss>
+<lat : 11>
+<i_buf access[9556] : 24001d8>
+<buf hit : 24001d8>
+<lat : 1>
+<i_buf access[9593] : 24001d8>
+<miss>
+<lat : 11>
+<i_buf access[9604] : 24001d8>
+<buf hit : 24001d8>
+<lat : 1>
+<d_buf access[9617] : 23ff2d7>
+<miss>
+<lat : 11>
+<i_buf access[9622] : 240021a>
+<miss>
+<lat : 11>
+<i_buf access[9633] : 240021a>
+<buf hit : 240021a>
+<lat : 1>
+<i_buf access[9665] : 240021a>
+<miss>
+<lat : 11>
+<i_buf access[9676] : 240021a>
+<buf hit : 240021a>
+<lat : 1>
+1<i_buf access[9692] : 24001de>
+<miss>
+<lat : 11>
+1<i_buf access[9703] : 24001de>
+<buf hit : 24001de>
+<lat : 1>
+<i_buf access[9735] : 24001de>
+<miss>
+<lat : 11>
+<i_buf access[9742] : 24001e0>
+<miss>
+<lat : 11>
+<i_buf access[9772] : 24001e0>
+<buf hit : 24001e0>
+<lat : 1>
+<i_buf access[9804] : 24001e0>
+<miss>
+<lat : 11>
+<i_buf access[9815] : 24001e0>
+<buf hit : 24001e0>
+<lat : 1>
+<i_buf access[9821] : 24001e3>
+<miss>
+<lat : 11>
+<i_buf access[9832] : 24001e3>
+<buf hit : 24001e3>
+<lat : 1>
+11111<i_buf access[9919] : 240021b>
+<miss>
+<lat : 11>
+<i_buf access[9930] : 240021b>
+<buf hit : 240021b>
+<lat : 1>
+<i_buf access[9962] : 240021c>
+<buf hit : 240021c>
+<lat : 1>
+<i_buf access[9995] : 240021c>
+<miss>
+<lat : 11>
+<i_buf access[10006] : 240021c>
+<buf hit : 240021c>
+<lat : 1>
+<i_buf access[10013] : 240021c>
+<miss>
+<lat : 11>
+1<i_buf access[10024] : 240021c>
+<buf hit : 240021c>
+<lat : 1>
+111<i_buf access[10065] : 24001ee>
+<miss>
+<lat : 11>
+<i_buf access[10076] : 24001ee>
+<buf hit : 24001ee>
+<lat : 1>
+<i_buf access[10108] : 24001ee>
+<miss>
+<lat : 11>
+<i_buf access[10119] : 24001ee>
+<buf hit : 24001ee>
+<lat : 1>
+<i_buf access[10133] : 24001ef>
+<buf hit : 24001ef>
+<lat : 1>
+<i_buf access[10166] : 24001ef>
+<miss>
+<lat : 11>
+<i_buf access[10177] : 24001ef>
+<buf hit : 24001ef>
+<lat : 1>
+<i_buf access[10183] : 24001ef>
+<miss>
+<lat : 11>
+<i_buf access[10194] : 24001ef>
+<buf hit : 24001ef>
+<lat : 1>
+<i_buf access[10214] : 2400251>
+<miss>
+<lat : 11>
+<i_buf access[10225] : 2400251>
+<buf hit : 2400251>
+<lat : 1>
+<i_buf access[10258] : 2400252>
+<buf hit : 2400252>
+<lat : 1>
+<d_buf access[10261] : 23ff2cf>
+<miss>
+<lat : 11>
+1<d_buf access[10261] : 23ff2cf>
+<buf hit : 23ff2cf>
+<lat : 11>
+11<d_buf access[10262] : 23ff2cf>
+<miss>
+<lat : 11>
+1<d_buf access[10263] : 23ff2cf>
+<buf hit : 23ff2cf>
+<lat : 10>
+11<i_buf access[10291] : 2400252>
+<miss>
+<lat : 11>
+111<i_buf access[10302] : 2400252>
+<buf hit : 2400252>
+<lat : 1>
+<i_buf access[10313] : 2400252>
+<miss>
+<lat : 11>
+<d_buf access[10316] : 2800001>
+<miss>
+<lat : 11>
+<i_buf access[10324] : 2400252>
+<buf hit : 2400252>
+<lat : 1>
+<i_buf access[10356] : 2400252>
+<miss>
+<lat : 11>
+<i_buf access[10367] : 2400252>
+<buf hit : 2400252>
+<lat : 1>
+<i_buf access[10377] : 2400163>
+<miss>
+<lat : 11>
+<i_buf access[10388] : 2400163>
+<buf hit : 2400163>
+<lat : 1>
+<i_buf access[10420] : 2400164>
+<buf hit : 2400164>
+<lat : 1>
+<d_buf access[10424] : 23ff2ce>
+<miss>
+<lat : 11>
+1<d_buf access[10425] : 23ff2ce>
+<buf hit : 23ff2ce>
+<lat : 10>
+1<i_buf access[10457] : 2400164>
+<miss>
+<lat : 11>
+<i_buf access[10468] : 2400164>
+<buf hit : 2400164>
+<lat : 1>
+<i_buf access[10500] : 2400165>
+<buf hit : 2400165>
+<lat : 1>
+<d_buf access[10503] : 2800001>
+<miss>
+<lat : 11>
+<i_buf access[10536] : 2400166>
+<buf hit : 2400166>
+<lat : 1>
+<i_buf access[10568] : 2400166>
+<miss>
+<lat : 11>
+<d_buf access[10571] : 23ff2cd>
+<miss>
+<lat : 11>
+<i_buf access[10579] : 2400166>
+<buf hit : 2400166>
+<lat : 1>
+<d_buf access[10583] : 23ff2cd>
+<buf hit : 23ff2cd>
+<lat : 1>
+1<i_buf access[10612] : 2400166>
+<miss>
+<lat : 11>
+<d_buf access[10615] : 23ff2ce>
+<buf hit : 23ff2ce>
+<lat : 1>
+1111<i_buf access[10623] : 2400166>
+<buf hit : 2400166>
+<lat : 1>
+<i_buf access[10633] : 2400176>
+<miss>
+<lat : 11>
+<i_buf access[10644] : 2400176>
+<buf hit : 2400176>
+<lat : 1>
+<i_buf access[10650] : 2400177>
+<buf hit : 2400177>
+<lat : 1>
+1<d_buf access[10654] : 2800013>
+<miss>
+<lat : 11>
+<i_buf access[10669] : 2400131>
+<miss>
+<lat : 11>
+<i_buf access[10680] : 2400131>
+<buf hit : 2400131>
+<lat : 1>
+<i_buf access[10698] : 2400167>
+<miss>
+<lat : 11>
+<i_buf access[10709] : 2400167>
+<buf hit : 2400167>
+<lat : 1>
+<d_buf access[10744] : 2800001>
+<miss>
+<lat : 11>
+<i_buf access[10746] : 2400168>
+<buf hit : 2400168>
+<lat : 1>
+<d_buf access[10757] : 2800001>
+<buf hit : 2800001>
+<lat : 1>
+11111<i_buf access[10783] : 240024f>
+<miss>
+<lat : 11>
+<i_buf access[10794] : 240024f>
+<buf hit : 240024f>
+<lat : 1>
+<i_buf access[10826] : 240024f>
+<miss>
+<lat : 11>
+<d_buf access[10829] : 280003d>
+<miss>
+<lat : 11>
+<i_buf access[10837] : 240024f>
+<buf hit : 240024f>
+<lat : 1>
+1<i_buf access[10848] : 2400284>
+<miss>
+<lat : 11>
+<i_buf access[10859] : 2400284>
+<buf hit : 2400284>
+<lat : 1>
+<i_buf access[10903] : 240027d>
+<miss>
+<lat : 11>
+<d_buf access[10904] : 2800041>
+<miss>
+<lat : 11>
+<i_buf access[10914] : 240027d>
+<buf hit : 240027d>
+<lat : 1>
+<d_buf access[10950] : 23ff2cd>
+<miss>
+<lat : 11>
+1<d_buf access[10950] : 23ff2cd>
+<buf hit : 23ff2cd>
+<lat : 11>
+1<i_buf access[10951] : 240027e>
+<buf hit : 240027e>
+<lat : 1>
+<i_buf access[10961] : 2400177>
+<miss>
+<lat : 11>
+<i_buf access[10972] : 2400177>
+<buf hit : 2400177>
+<lat : 1>
+<i_buf access[11004] : 2400178>
+<buf hit : 2400178>
+<lat : 1>
+1<d_buf access[11039] : 2800013>
+<miss>
+<lat : 11>
+<i_buf access[11054] : 2400132>
+<miss>
+<lat : 11>
+<i_buf access[11065] : 2400132>
+<buf hit : 2400132>
+<lat : 1>
+<i_buf access[11097] : 2400132>
+<miss>
+<lat : 11>
+1<i_buf access[11108] : 2400132>
+<buf hit : 2400132>
+<lat : 1>
+<i_buf access[11118] : 2400284>
+<miss>
+<lat : 11>
+<i_buf access[11124] : 2400250>
+<miss>
+<lat : 11>
+<i_buf access[11135] : 2400250>
+<buf hit : 2400250>
+<lat : 1>
+<d_buf access[11175] : 2800013>
+<buf hit : 2800013>
+<lat : 1>
+1<i_buf access[11181] : 2400250>
+<miss>
+<lat : 11>
+<i_buf access[11192] : 2400250>
+<buf hit : 2400250>
+<lat : 1>
+<i_buf access[11199] : 2400284>
+<miss>
+<lat : 11>
+<i_buf access[11204] : 2400169>
+<miss>
+<lat : 11>
+<i_buf access[11215] : 2400169>
+<buf hit : 2400169>
+<lat : 1>
+<i_buf access[11221] : 2400169>
+<miss>
+<lat : 11>
+<i_buf access[11232] : 2400169>
+<buf hit : 2400169>
+<lat : 1>
+<d_buf access[11255] : 2800013>
+<miss>
+<lat : 11>
+1<i_buf access[11257] : 2400169>
+<miss>
+<lat : 11>
+<i_buf access[11268] : 2400169>
+<buf hit : 2400169>
+<lat : 1>
+1<i_buf access[11272] : 2400169>
+<miss>
+<lat : 11>
+<i_buf access[11283] : 2400169>
+<buf hit : 2400169>
+<lat : 1>
+<i_buf access[11301] : 240016a>
+<buf hit : 240016a>
+<lat : 1>
+<i_buf access[11302] : 2400284>
+<miss>
+<lat : 11>
+<i_buf access[11311] : 2400165>
+<miss>
+<lat : 11>
+<i_buf access[11322] : 2400165>
+<buf hit : 2400165>
+<lat : 1>
+<i_buf access[11329] : 2400165>
+<miss>
+<lat : 11>
+<i_buf access[11340] : 2400165>
+<buf hit : 2400165>
+<lat : 1>
+<i_buf access[11373] : 2400165>
+<miss>
+<lat : 11>
+1<i_buf access[11384] : 2400165>
+<buf hit : 2400165>
+<lat : 1>
+<i_buf access[11391] : 2400166>
+<buf hit : 2400166>
+<lat : 1>
+<i_buf access[11401] : 2400284>
+<miss>
+<lat : 11>
+<i_buf access[11408] : 2400253>
+<miss>
+<lat : 11>
+<i_buf access[11419] : 2400253>
+<buf hit : 2400253>
+<lat : 1>
+<i_buf access[11456] : 2400253>
+<miss>
+<lat : 11>
+<i_buf access[11467] : 2400253>
+<buf hit : 2400253>
+<lat : 1>
+<i_buf access[11477] : 2400254>
+<buf hit : 2400254>
+<lat : 1>
+<i_buf access[11510] : 2400254>
+<miss>
+<lat : 11>
+<i_buf access[11521] : 2400254>
+<buf hit : 2400254>
+<lat : 1>
+<i_buf access[11541] : 2400255>
+<buf hit : 2400255>
+<lat : 1>
+<d_buf access[11551] : 2800086>
+<miss>
+<lat : 11>
+1e<d_buf access[11556] : 2800086>
+<buf hit : 2800086>
+<lat : 6>
+1917<d_buf access[11570] : 2800086>
+<miss>
+<lat : 11>
+<i_buf access[11578] : 2400255>
+<miss>
+<lat : 11>
+<d_buf access[11584] : 2800086>
+<buf hit : 2800086>
+<lat : 1>
+111<i_buf access[11589] : 2400255>
+<buf hit : 2400255>
+<lat : 1>
+<i_buf access[11599] : 2400255>
+<miss>
+<lat : 11>
+<i_buf access[11610] : 2400255>
+<buf hit : 2400255>
+<lat : 1>
+<i_buf access[11646] : 2400256>
+<buf hit : 2400256>
+<lat : 1>
+<i_buf access[11679] : 2400256>
+<miss>
+<lat : 11>
+<i_buf access[11690] : 2400256>
+<buf hit : 2400256>
+<lat : 1>
+<i_buf access[11700] : 2400256>
+<miss>
+<lat : 11>
+<i_buf access[11711] : 2400256>
+<buf hit : 2400256>
+<lat : 1>
+<i_buf access[11747] : 2400256>
+<miss>
+<lat : 11>
+<i_buf access[11758] : 2400256>
+<buf hit : 2400256>
+<lat : 1>
+<i_buf access[11765] : 2400257>
+<buf hit : 2400257>
+<lat : 1>
+<i_buf access[11766] : 2400284>
+<miss>
+<lat : 11>
+<i_buf access[11771] : 24001f0>
+<miss>
+<lat : 11>
+<i_buf access[11782] : 24001f0>
+<buf hit : 24001f0>
+<lat : 1>
+<i_buf access[11815] : 24001f0>
+<miss>
+<lat : 11>
+<i_buf access[11821] : 24001f0>
+<buf hit : 24001f0>
+<lat : 5>
+<i_buf access[11830] : 24001f0>
+<miss>
+<lat : 11>
+<i_buf access[11841] : 24001f0>
+<buf hit : 24001f0>
+<lat : 1>
+<i_buf access[11873] : 24001f0>
+<miss>
+<lat : 11>
+<i_buf access[11884] : 24001f0>
+<buf hit : 24001f0>
+<lat : 1>
+<i_buf access[11894] : 24001f9>
+<miss>
+<lat : 11>
+<i_buf access[11905] : 24001f9>
+<buf hit : 24001f9>
+<lat : 1>
+<i_buf access[11938] : 24001f9>
+<miss>
+<lat : 11>
+<i_buf access[11949] : 24001f9>
+<buf hit : 24001f9>
+<lat : 1>
+<i_buf access[11982] : 2400284>
+<miss>
+<lat : 11>
+<i_buf access[11987] : 24000b6>
+<miss>
+<lat : 11>
+<i_buf access[11998] : 24000b6>
+<buf hit : 24000b6>
+<lat : 1>
+<i_buf access[12005] : 24000b7>
+<buf hit : 24000b7>
+<lat : 1>
+<i_buf access[12042] : 24000b7>
+<miss>
+<lat : 11>
+<i_buf access[12053] : 24000b7>
+<buf hit : 24000b7>
+<lat : 1>
+<d_buf access[12068] : 2800015>
+<miss>
+<lat : 11>
+1<i_buf access[12069] : 2400171>
+<miss>
+<lat : 11>
+<i_buf access[12076] : 2400129>
+<miss>
+<lat : 11>
+<i_buf access[12087] : 2400129>
+<buf hit : 2400129>
+<lat : 1>
+<i_buf access[12094] : 2400129>
+<miss>
+<lat : 11>
+<i_buf access[12105] : 2400129>
+<buf hit : 2400129>
+<lat : 1>
+1<i_buf access[12142] : 2400129>
+<miss>
+<lat : 11>
+<d_buf access[12146] : 2800017>
+<miss>
+<lat : 11>
+11<i_buf access[12153] : 2400129>
+<buf hit : 2400129>
+<lat : 1>
+<d_buf access[12163] : 2800017>
+<buf hit : 2800017>
+<lat : 1>
+<i_buf access[12164] : 240012a>
+<buf hit : 240012a>
+<lat : 1>
+<i_buf access[12197] : 2400171>
+<miss>
+<lat : 11>
+1<i_buf access[12208] : 2400171>
+<buf hit : 2400171>
+<lat : 1>
+<i_buf access[12215] : 24000b7>
+<miss>
+<lat : 11>
+<i_buf access[12226] : 24000b7>
+<buf hit : 24000b7>
+<lat : 1>
+<i_buf access[12234] : 2400284>
+<miss>
+<lat : 11>
+<i_buf access[12239] : 24000ad>
+<miss>
+<lat : 11>
+<i_buf access[12250] : 24000ad>
+<buf hit : 24000ad>
+<lat : 1>
+<i_buf access[12283] : 24000ad>
+<miss>
+<lat : 11>
+<d_buf access[12285] : 2800041>
+<miss>
+<lat : 11>
+<i_buf access[12294] : 24000ad>
+<buf hit : 24000ad>
+<lat : 1>
+111111111111111<i_buf access[12317] : 2400170>
+<miss>
+<lat : 11>
+11<i_buf access[12328] : 2400170>
+<buf hit : 2400170>
+<lat : 1>
+<i_buf access[12334] : 2400170>
+<miss>
+<lat : 11>
+1<d_buf access[12338] : 2800014>
+<miss>
+<lat : 11>
+<i_buf access[12345] : 2400170>
+<buf hit : 2400170>
+<lat : 1>
+<d_buf access[12353] : 2800012>
+<miss>
+<lat : 11>
+1111111111111111111111<d_buf access[12388] : 2800044>
+<miss>
+<lat : 11>
+<d_buf access[12400] : 240009a>
+<miss>
+<lat : 11>
+111111<d_buf access[12416] : 2800000>
+<miss>
+<lat : 11>
+<d_buf access[12457] : 2800000>
+<buf hit : 2800000>
+<lat : 1>
+1<i_buf access[12468] : 2400184>
+<miss>
+<lat : 11>
+1<i_buf access[12479] : 2400184>
+<buf hit : 2400184>
+<lat : 1>
+111<d_buf access[12514] : 2800037>
+<miss>
+<lat : 11>
+<d_buf access[12527] : 2400019>
+<miss>
+<lat : 11>
+<d_buf access[12529] : 2800037>
+<miss>
+<lat : 11>
+<d_buf access[12553] : 2800037>
+<buf hit : 2800037>
+<lat : 1>
+<d_buf access[12556] : 2400019>
+<miss>
+<lat : 11>
+11<d_buf access[12587] : 2400016>
+<miss>
+<lat : 11>
+11<d_buf access[12613] : 2400015>
+<miss>
+<lat : 11>
+<i_buf access[12613] : 240019b>
+<miss>
+<lat : 11>
+<d_buf access[12617] : 2400014>
+<miss>
+<lat : 11>
+<i_buf access[12624] : 240019b>
+<buf hit : 240019b>
+<lat : 1>
+<i_buf access[12631] : 240019c>
+<buf hit : 240019c>
+<lat : 1>
+<i_buf access[12638] : 240019c>
+<miss>
+<lat : 11>
+1<i_buf access[12649] : 240019c>
+<buf hit : 240019c>
+<lat : 1>
+1<d_buf access[12669] : 23ff2d7>
+<miss>
+<lat : 11>
+<d_buf access[12671] : 2400012>
+<miss>
+<lat : 11>
+<i_buf access[12675] : 240019f>
+<miss>
+<lat : 11>
+<d_buf access[12686] : 23ff2d7>
+<miss>
+<lat : 11>
+1<i_buf access[12686] : 240019f>
+<buf hit : 240019f>
+<lat : 1>
+<i_buf access[12693] : 240019f>
+<miss>
+<lat : 11>
+<d_buf access[12695] : 2400012>
+<miss>
+<lat : 11>
+<d_buf access[12696] : 23ff2d7>
+<miss>
+<lat : 11>
+<i_buf access[12704] : 240019f>
+<buf hit : 240019f>
+<lat : 1>
+<d_buf access[12740] : 23ff2d7>
+<buf hit : 23ff2d7>
+<lat : 1>
+1<d_buf access[12747] : 2400012>
+<miss>
+<lat : 11>
+1<d_buf access[12775] : 2400012>
+<buf hit : 2400012>
+<lat : 1>
+11111<d_buf access[12829] : 2800038>
+<miss>
+<lat : 11>
+111111111111111111111111111111<i_buf access[12980] : 240021b>
+<miss>
+<lat : 11>
+<i_buf access[12991] : 240021b>
+<buf hit : 240021b>
+<lat : 1>
+<i_buf access[12997] : 240021c>
+<buf hit : 240021c>
+<lat : 1>
+<i_buf access[13006] : 240021c>
+<miss>
+<lat : 11>
+1<i_buf access[13017] : 240021c>
+<buf hit : 240021c>
+<lat : 1>
+111111111111<i_buf access[13095] : 240021b>
+<miss>
+<lat : 11>
+<i_buf access[13106] : 240021b>
+<buf hit : 240021b>
+<lat : 1>
+<i_buf access[13138] : 240021b>
+<miss>
+<lat : 11>
+<i_buf access[13149] : 240021b>
+<buf hit : 240021b>
+<lat : 1>
+<i_buf access[13161] : 240021a>
+<miss>
+<lat : 11>
+1<i_buf access[13172] : 240021a>
+<buf hit : 240021a>
+<lat : 1>
+<i_buf access[13209] : 240021a>
+<miss>
+<lat : 11>
+<i_buf access[13220] : 240021a>
+<buf hit : 240021a>
+<lat : 1>
+1<i_buf access[13231] : 240021b>
+<buf hit : 240021b>
+<lat : 1>
+1111<i_buf access[13274] : 24001f0>
+<miss>
+<lat : 11>
+<i_buf access[13285] : 24001f0>
+<buf hit : 24001f0>
+<lat : 1>
+<i_buf access[13292] : 24001f0>
+<miss>
+<lat : 11>
+<i_buf access[13303] : 24001f0>
+<buf hit : 24001f0>
+<lat : 1>
+<d_buf access[13337] : 2800015>
+<miss>
+<lat : 11>
+11111<i_buf access[13362] : 24000ad>
+<miss>
+<lat : 11>
+<i_buf access[13373] : 24000ad>
+<buf hit : 24000ad>
+<lat : 1>
+<d_buf access[13408] : 2800041>
+<miss>
+<lat : 11>
+1111111111111111<i_buf access[13430] : 2400170>
+<miss>
+<lat : 11>
+1<i_buf access[13441] : 2400170>
+<buf hit : 2400170>
+<lat : 1>
+<i_buf access[13447] : 2400170>
+<miss>
+<lat : 11>
+1<d_buf access[13451] : 2800014>
+<miss>
+<lat : 11>
+<i_buf access[13458] : 2400170>
+<buf hit : 2400170>
+<lat : 1>
+<d_buf access[13466] : 2800012>
+<miss>
+<lat : 11>
+1111111111111111111111<d_buf access[13501] : 2800044>
+<miss>
+<lat : 11>
+<d_buf access[13513] : 240009a>
+<miss>
+<lat : 11>
+11111111111<d_buf access[13615] : 2400019>
+<miss>
+<lat : 11>
+<d_buf access[13644] : 2400019>
+<buf hit : 2400019>
+<lat : 1>
+11<d_buf access[13659] : 2400016>
+<miss>
+<lat : 11>
+11<d_buf access[13685] : 2400015>
+<miss>
+<lat : 11>
+<i_buf access[13685] : 240019b>
+<miss>
+<lat : 11>
+<d_buf access[13689] : 2400014>
+<miss>
+<lat : 11>
+<i_buf access[13696] : 240019b>
+<buf hit : 240019b>
+<lat : 1>
+<i_buf access[13703] : 240019c>
+<buf hit : 240019c>
+<lat : 1>
+<i_buf access[13710] : 240019c>
+<miss>
+<lat : 11>
+1<i_buf access[13721] : 240019c>
+<buf hit : 240019c>
+<lat : 1>
+11<d_buf access[13754] : 2800038>
+<miss>
+<lat : 11>
+11111111111111111111111111111111111111111111<i_buf access[13952] : 240021b>
+<miss>
+<lat : 11>
+<i_buf access[13963] : 240021b>
+<buf hit : 240021b>
+<lat : 1>
+<i_buf access[13969] : 240021c>
+<buf hit : 240021c>
+<lat : 1>
+<i_buf access[13978] : 240021c>
+<miss>
+<lat : 11>
+1<i_buf access[13989] : 240021c>
+<buf hit : 240021c>
+<lat : 1>
+1111111111111<d_buf access[14065] : 2800087>
+<miss>
+<lat : 11>
+1<d_buf access[14068] : 2800087>
+<buf hit : 2800087>
+<lat : 8>
+1111<i_buf access[14113] : 24001f0>
+<miss>
+<lat : 11>
+<i_buf access[14124] : 24001f0>
+<buf hit : 24001f0>
+<lat : 1>
+<i_buf access[14131] : 24001f0>
+<miss>
+<lat : 11>
+<i_buf access[14142] : 24001f0>
+<buf hit : 24001f0>
+<lat : 1>
+<d_buf access[14176] : 2800015>
+<miss>
+<lat : 11>
+11111<i_buf access[14201] : 24000ad>
+<miss>
+<lat : 11>
+<d_buf access[14204] : 2800041>
+<miss>
+<lat : 11>
+<i_buf access[14212] : 24000ad>
+<buf hit : 24000ad>
+<lat : 1>
+<d_buf access[14215] : 2800041>
+<buf hit : 2800041>
+<lat : 1>
+111111111111111<i_buf access[14236] : 2400170>
+<miss>
+<lat : 11>
+11<i_buf access[14247] : 2400170>
+<buf hit : 2400170>
+<lat : 1>
+<i_buf access[14253] : 2400170>
+<miss>
+<lat : 11>
+1<d_buf access[14257] : 2800014>
+<miss>
+<lat : 11>
+<i_buf access[14264] : 2400170>
+<buf hit : 2400170>
+<lat : 1>
+<d_buf access[14272] : 2800012>
+<miss>
+<lat : 11>
+1111111111111111111111<d_buf access[14307] : 2800044>
+<miss>
+<lat : 11>
+<d_buf access[14319] : 240009a>
+<miss>
+<lat : 11>
+111111<d_buf access[14335] : 2800000>
+<miss>
+<lat : 11>
+<d_buf access[14376] : 2800000>
+<buf hit : 2800000>
+<lat : 1>
+1111111<d_buf access[14474] : 2400016>
+<miss>
+<lat : 11>
+11<d_buf access[14500] : 2400015>
+<miss>
+<lat : 11>
+<i_buf access[14500] : 240019b>
+<miss>
+<lat : 11>
+<d_buf access[14504] : 2400014>
+<miss>
+<lat : 11>
+<i_buf access[14511] : 240019b>
+<buf hit : 240019b>
+<lat : 1>
+<i_buf access[14518] : 240019c>
+<buf hit : 240019c>
+<lat : 1>
+<i_buf access[14525] : 240019c>
+<miss>
+<lat : 11>
+1<i_buf access[14536] : 240019c>
+<buf hit : 240019c>
+<lat : 1>
+111111111<d_buf access[14594] : 2800038>
+<miss>
+<lat : 11>
+111111111111111111111111111111<i_buf access[14745] : 240021b>
+<miss>
+<lat : 11>
+<i_buf access[14756] : 240021b>
+<buf hit : 240021b>
+<lat : 1>
+<i_buf access[14762] : 240021c>
+<buf hit : 240021c>
+<lat : 1>
+<i_buf access[14771] : 240021c>
+<miss>
+<lat : 11>
+1<i_buf access[14782] : 240021c>
+<buf hit : 240021c>
+<lat : 1>
+11111111111111<d_buf access[14861] : 2800087>
+<miss>
+<lat : 11>
+1<d_buf access[14868] : 2800087>
+<buf hit : 2800087>
+<lat : 4>
+111<i_buf access[14885] : 24001f0>
+<miss>
+<lat : 11>
+<i_buf access[14896] : 24001f0>
+<buf hit : 24001f0>
+<lat : 1>
+<i_buf access[14903] : 24001f0>
+<miss>
+<lat : 11>
+<i_buf access[14914] : 24001f0>
+<buf hit : 24001f0>
+<lat : 1>
+<d_buf access[14948] : 2800015>
+<miss>
+<lat : 11>
+11111<i_buf access[14972] : 24000ae>
+<miss>
+<lat : 11>
+<i_buf access[14983] : 24000ae>
+<buf hit : 24000ae>
+<lat : 1>
+<i_buf access[15016] : 24000ae>
+<miss>
+<lat : 11>
+<i_buf access[15027] : 24000ae>
+<buf hit : 24000ae>
+<lat : 1>
+111111111111111<i_buf access[15050] : 2400170>
+<miss>
+<lat : 11>
+11<i_buf access[15061] : 2400170>
+<buf hit : 2400170>
+<lat : 1>
+<i_buf access[15067] : 2400170>
+<miss>
+<lat : 11>
+1<d_buf access[15071] : 2800014>
+<miss>
+<lat : 11>
+<i_buf access[15078] : 2400170>
+<buf hit : 2400170>
+<lat : 1>
+<d_buf access[15086] : 2800012>
+<miss>
+<lat : 11>
+1111111111111111111111<d_buf access[15121] : 2800044>
+<miss>
+<lat : 11>
+<d_buf access[15133] : 240009a>
+<miss>
+<lat : 11>
+1111111111111<d_buf access[15269] : 2400016>
+<miss>
+<lat : 11>
+11<d_buf access[15295] : 2400015>
+<miss>
+<lat : 11>
+<i_buf access[15295] : 240019b>
+<miss>
+<lat : 11>
+<d_buf access[15299] : 2400014>
+<miss>
+<lat : 11>
+<i_buf access[15306] : 240019b>
+<buf hit : 240019b>
+<lat : 1>
+<i_buf access[15313] : 240019c>
+<buf hit : 240019c>
+<lat : 1>
+<i_buf access[15320] : 240019c>
+<miss>
+<lat : 11>
+1<i_buf access[15331] : 240019c>
+<buf hit : 240019c>
+<lat : 1>
+111111111<d_buf access[15389] : 2800038>
+<miss>
+<lat : 11>
+111111111111111111111111111111<i_buf access[15540] : 240021b>
+<miss>
+<lat : 11>
+<i_buf access[15551] : 240021b>
+<buf hit : 240021b>
+<lat : 1>
+<i_buf access[15557] : 240021c>
+<buf hit : 240021c>
+<lat : 1>
+<i_buf access[15566] : 240021c>
+<miss>
+<lat : 11>
+1<i_buf access[15577] : 240021c>
+<buf hit : 240021c>
+<lat : 1>
+111111111111111<d_buf access[15663] : 2800087>
+<miss>
+<lat : 11>
+<d_buf access[15677] : 2800087>
+<buf hit : 2800087>
+<lat : 1>
+111<i_buf access[15687] : 24001f0>
+<miss>
+<lat : 11>
+<i_buf access[15698] : 24001f0>
+<buf hit : 24001f0>
+<lat : 1>
+<i_buf access[15705] : 24001f0>
+<miss>
+<lat : 11>
+<i_buf access[15716] : 24001f0>
+<buf hit : 24001f0>
+<lat : 1>
+<d_buf access[15750] : 2800015>
+<miss>
+<lat : 11>
+11111<i_buf access[15778] : 24000b0>
+<miss>
+<lat : 11>
+<i_buf access[15789] : 24000b0>
+<buf hit : 24000b0>
+<lat : 1>
+<i_buf access[15822] : 24000b0>
+<miss>
+<lat : 11>
+11<d_buf access[15825] : 2800014>
+<miss>
+<lat : 11>
+<d_buf access[15826] : 280002d>
+<miss>
+<lat : 11>
+<i_buf access[15833] : 24000b0>
+<buf hit : 24000b0>
+<lat : 1>
+1<d_buf access[15843] : 2800026>
+<miss>
+<lat : 11>
+<d_buf access[15845] : 2800026>
+<buf hit : 2800026>
+<lat : 9>
+<i_buf access[15845] : 24000ae>
+<miss>
+<lat : 11>
+<d_buf access[15846] : 2800012>
+<miss>
+<lat : 11>
+<i_buf access[15856] : 24000ae>
+<buf hit : 24000ae>
+<lat : 1>
+<d_buf access[15858] : 2800027>
+<miss>
+<lat : 11>
+11<i_buf access[15861] : 24000b1>
+<miss>
+<lat : 11>
+<d_buf access[15865] : 2800042>
+<miss>
+<lat : 11>
+<i_buf access[15872] : 24000b1>
+<buf hit : 24000b1>
+<lat : 1>
+1<d_buf access[15880] : 2800042>
+<buf hit : 2800042>
+<lat : 1>
+1<i_buf access[15880] : 24000b1>
+<miss>
+<lat : 11>
+<i_buf access[15891] : 24000b1>
+<buf hit : 24000b1>
+<lat : 1>
+<i_buf access[15908] : 240014a>
+<miss>
+<lat : 11>
+<i_buf access[15919] : 240014a>
+<buf hit : 240014a>
+<lat : 1>
+<i_buf access[15952] : 240014a>
+<miss>
+<lat : 11>
+<d_buf access[15954] : 2800035>
+<miss>
+<lat : 11>
+<i_buf access[15963] : 240014a>
+<buf hit : 240014a>
+<lat : 1>
+1111<i_buf access[15999] : 240014b>
+<buf hit : 240014b>
+<lat : 1>
+<i_buf access[15999] : 240014b>
+<miss>
+<lat : 11>
+<d_buf access[16002] : 2800035>
+<buf hit : 2800035>
+<lat : 1>
+<i_buf access[16010] : 240014b>
+<buf hit : 240014b>
+<lat : 1>
+<i_buf access[16037] : 2400295>
+<miss>
+<lat : 11>
+<i_buf access[16048] : 2400295>
+<buf hit : 2400295>
+<lat : 1>
+11<i_buf access[16090] : 2400148>
+<miss>
+<lat : 11>
+<i_buf access[16101] : 2400148>
+<buf hit : 2400148>
+<lat : 1>
+<i_buf access[16102] : 24000b1>
+<miss>
+<lat : 11>
+<i_buf access[16107] : 2400295>
+<miss>
+<lat : 11>
+<i_buf access[16118] : 2400295>
+<buf hit : 2400295>
+<lat : 1>
+<i_buf access[16125] : 24000b1>
+<miss>
+<lat : 11>
+<i_buf access[16134] : 240014b>
+<miss>
+<lat : 11>
+<i_buf access[16145] : 240014b>
+<buf hit : 240014b>
+<lat : 1>
+<i_buf access[16179] : 24000b1>
+<miss>
+<lat : 11>
+<i_buf access[16190] : 24000b1>
+<buf hit : 24000b1>
+<lat : 1>
+<i_buf access[16226] : 240014c>
+<miss>
+<lat : 11>
+<i_buf access[16237] : 240014c>
+<buf hit : 240014c>
+<lat : 1>
+<i_buf access[16269] : 240014c>
+<miss>
+<lat : 11>
+1<i_buf access[16280] : 240014c>
+<buf hit : 240014c>
+<lat : 1>
+1<i_buf access[16287] : 240014c>
+<miss>
+<lat : 11>
+1111<d_buf access[16291] : 2800037>
+<miss>
+<lat : 11>
+<d_buf access[16291] : 2800037>
+<buf hit : 2800037>
+<lat : 11>
+1<i_buf access[16298] : 240014c>
+<buf hit : 240014c>
+<lat : 1>
+1<d_buf access[16333] : 2800014>
+<miss>
+<lat : 11>
+1<d_buf access[16351] : 2800016>
+<miss>
+<lat : 11>
+<d_buf access[16353] : 2800016>
+<buf hit : 2800016>
+<lat : 9>
+<d_buf access[16354] : 2800012>
+<miss>
+<lat : 11>
+<i_buf access[16386] : 24000b1>
+<miss>
+<lat : 11>
+1<i_buf access[16391] : 240014c>
+<miss>
+<lat : 11>
+<d_buf access[16394] : 2800014>
+<miss>
+<lat : 11>
+<i_buf access[16402] : 240014c>
+<buf hit : 240014c>
+<lat : 1>
+<d_buf access[16412] : 2800008>
+<miss>
+<lat : 11>
+<d_buf access[16414] : 2800000>
+<miss>
+<lat : 11>
+<i_buf access[16415] : 240012a>
+<miss>
+<lat : 11>
+<i_buf access[16426] : 240012a>
+<buf hit : 240012a>
+<lat : 1>
+<i_buf access[16448] : 24000b1>
+<miss>
+<lat : 11>
+1<i_buf access[16453] : 240014d>
+<miss>
+<lat : 11>
+<i_buf access[16464] : 240014d>
+<buf hit : 240014d>
+<lat : 1>
+<d_buf access[16500] : 2800001>
+<miss>
+<lat : 11>
+<d_buf access[16504] : 2800001>
+<buf hit : 2800001>
+<lat : 7>
+<i_buf access[16505] : 240014d>
+<miss>
+<lat : 11>
+<i_buf access[16516] : 240014d>
+<buf hit : 240014d>
+<lat : 1>
+<i_buf access[16526] : 2400170>
+<miss>
+<lat : 11>
+<i_buf access[16537] : 2400170>
+<buf hit : 2400170>
+<lat : 1>
+<i_buf access[16543] : 2400171>
+<buf hit : 2400171>
+<lat : 1>
+1<d_buf access[16578] : 2800014>
+<miss>
+<lat : 11>
+<d_buf access[16596] : 2800016>
+<miss>
+<lat : 11>
+<d_buf access[16598] : 2800016>
+<buf hit : 2800016>
+<lat : 9>
+<d_buf access[16599] : 2800016>
+<miss>
+<lat : 11>
+<d_buf access[16599] : 2800012>
+<miss>
+<lat : 11>
+11<d_buf access[16613] : 2800016>
+<miss>
+<lat : 11>
+1<i_buf access[16614] : 2400171>
+<miss>
+<lat : 11>
+<i_buf access[16625] : 2400171>
+<buf hit : 2400171>
+<lat : 1>
+<i_buf access[16634] : 240014d>
+<miss>
+<lat : 11>
+<i_buf access[16645] : 240014d>
+<buf hit : 240014d>
+<lat : 1>
+<i_buf access[16651] : 240014d>
+<miss>
+<lat : 11>
+<i_buf access[16662] : 240014d>
+<buf hit : 240014d>
+<lat : 1>
+<i_buf access[16677] : 240014e>
+<buf hit : 240014e>
+<lat : 1>
+<i_buf access[16713] : 240014f>
+<buf hit : 240014f>
+<lat : 1>
+<i_buf access[16746] : 240014f>
+<miss>
+<lat : 11>
+1111<i_buf access[16757] : 240014f>
+<buf hit : 240014f>
+<lat : 1>
+1<i_buf access[16767] : 2400150>
+<buf hit : 2400150>
+<lat : 1>
+<d_buf access[16807] : 2800014>
+<miss>
+<lat : 11>
+1<i_buf access[16825] : 2400150>
+<miss>
+<lat : 11>
+1<i_buf access[16836] : 2400150>
+<buf hit : 2400150>
+<lat : 1>
+<i_buf access[16846] : 2400150>
+<miss>
+<lat : 11>
+<i_buf access[16857] : 2400150>
+<buf hit : 2400150>
+<lat : 1>
+<i_buf access[16898] : 2400151>
+<buf hit : 2400151>
+<lat : 1>
+<i_buf access[16934] : 2400154>
+<miss>
+<lat : 11>
+<i_buf access[16945] : 2400154>
+<buf hit : 2400154>
+<lat : 1>
+<i_buf access[16978] : 2400155>
+<buf hit : 2400155>
+<lat : 1>
+111111<i_buf access[17011] : 2400155>
+<miss>
+<lat : 11>
+111<i_buf access[17017] : 2400157>
+<miss>
+<lat : 11>
+<i_buf access[17028] : 2400157>
+<buf hit : 2400157>
+<lat : 1>
+<i_buf access[17061] : 2400157>
+<miss>
+<lat : 11>
+<i_buf access[17067] : 2400157>
+<buf hit : 2400157>
+<lat : 5>
+<i_buf access[17103] : 2400159>
+<miss>
+<lat : 11>
+<i_buf access[17114] : 2400159>
+<buf hit : 2400159>
+<lat : 1>
+<d_buf access[17149] : 2800036>
+<miss>
+<lat : 11>
+<i_buf access[17154] : 2400159>
+<miss>
+<lat : 11>
+<i_buf access[17165] : 2400159>
+<buf hit : 2400159>
+<lat : 1>
+<d_buf access[17200] : 2800001>
+<miss>
+<lat : 11>
+<i_buf access[17201] : 240015a>
+<buf hit : 240015a>
+<lat : 1>
+<i_buf access[17234] : 240015a>
+<miss>
+<lat : 11>
+1<i_buf access[17245] : 240015a>
+<buf hit : 240015a>
+<lat : 1>
+<i_buf access[17252] : 240015a>
+<miss>
+<lat : 11>
+<d_buf access[17255] : 2800001>
+<buf hit : 2800001>
+<lat : 1>
+111<i_buf access[17263] : 240015a>
+<buf hit : 240015a>
+<lat : 1>
+<i_buf access[17297] : 2400151>
+<miss>
+<lat : 11>
+<i_buf access[17308] : 2400151>
+<buf hit : 2400151>
+<lat : 1>
+<i_buf access[17318] : 240024e>
+<miss>
+<lat : 11>
+<i_buf access[17329] : 240024e>
+<buf hit : 240024e>
+<lat : 1>
+<i_buf access[17362] : 240024e>
+<miss>
+<lat : 11>
+11<i_buf access[17373] : 240024e>
+<buf hit : 240024e>
+<lat : 1>
+1<i_buf access[17385] : 240024f>
+<buf hit : 240024f>
+<lat : 1>
+<d_buf access[17388] : 280003c>
+<miss>
+<lat : 11>
+<i_buf access[17421] : 2400283>
+<miss>
+<lat : 11>
+<i_buf access[17432] : 2400283>
+<buf hit : 2400283>
+<lat : 1>
+<i_buf access[17470] : 2400283>
+<miss>
+<lat : 11>
+<i_buf access[17481] : 2400283>
+<buf hit : 2400283>
+<lat : 1>
+<i_buf access[17482] : 240024f>
+<miss>
+<lat : 11>
+<i_buf access[17493] : 240024f>
+<buf hit : 240024f>
+<lat : 1>
+<i_buf access[17502] : 2400151>
+<miss>
+<lat : 11>
+<i_buf access[17513] : 2400151>
+<buf hit : 2400151>
+<lat : 1>
+<i_buf access[17517] : 2400151>
+<miss>
+<lat : 11>
+<i_buf access[17528] : 2400151>
+<buf hit : 2400151>
+<lat : 1>
+<i_buf access[17553] : 2400152>
+<buf hit : 2400152>
+<lat : 1>
+<i_buf access[17586] : 2400152>
+<miss>
+<lat : 11>
+<d_buf access[17589] : 2800008>
+<miss>
+<lat : 11>
+<i_buf access[17597] : 2400152>
+<buf hit : 2400152>
+<lat : 1>
+<d_buf access[17606] : 2800014>
+<miss>
+<lat : 11>
+<d_buf access[17607] : 2800008>
+<miss>
+<lat : 11>
+1<i_buf access[17634] : 240014e>
+<miss>
+<lat : 11>
+1<i_buf access[17639] : 2400152>
+<miss>
+<lat : 11>
+<i_buf access[17650] : 2400152>
+<buf hit : 2400152>
+<lat : 1>
+<i_buf access[17683] : 2400152>
+<miss>
+<lat : 11>
+1111<i_buf access[17694] : 2400152>
+<buf hit : 2400152>
+<lat : 1>
+<i_buf access[17702] : 240014e>
+<miss>
+<lat : 11>
+<i_buf access[17713] : 240014e>
+<buf hit : 240014e>
+<lat : 1>
+<d_bufx+1 = 0x0000000000000001
+x-1 = 0x00000000ffffffff
+y+1 = 0x0000000000000000
+x+y = 0x00000000ffffffff
+z*w = 0x00000000f0000000
+ access[17726] : 2800014>
+<miss>
+<lat : 11>
+<d_buf access[17745] : 2800016>
+<miss>
+<lat : 11>
+<d_buf access[17746] : 2800016>
+<buf hit : 2800016>
+<lat : 10>
+<i_buf access[17746] : 24000b1>
+<miss>
+<lat : 11>
+<i_buf access[17757] : 24000b1>
+<buf hit : 24000b1>
+<lat : 1>
+1111<i_buf access[17778] : 240014e>
+<miss>
+<lat : 11>
+<i_buf access[17789] : 240014e>
+<buf hit : 240014e>
+<lat : 1>
+<d_buf access[17806] : 2800014>
+<miss>
+<lat : 11>
+1<d_buf access[17821] : 2800012>
+<miss>
+<lat : 11>
+11111111<d_buf access[17846] : 2800014>
+<miss>
+<lat : 11>
+11111111111<i_buf access[17895] : 2400157>
+<miss>
+<lat : 11>
+<i_buf access[17906] : 2400157>
+<buf hit : 2400157>
+<lat : 1>
+<i_buf access[17921] : 2400158>
+<buf hit : 2400158>
+<lat : 1>
+<i_buf access[17957] : 2400161>
+<miss>
+<lat : 11>
+<i_buf access[17968] : 2400161>
+<buf hit : 2400161>
+<lat : 1>
+<i_buf access[18001] : 2400161>
+<miss>
+<lat : 11>
+11<i_buf access[18012] : 2400161>
+<buf hit : 2400161>
+<lat : 1>
+1<i_buf access[18045] : 2400161>
+<miss>
+<lat : 11>
+111<i_buf access[18056] : 2400161>
+<buf hit : 2400161>
+<lat : 1>
+1<i_buf access[18067] : 2400162>
+<buf hit : 2400162>
+<lat : 1>
+<i_buf access[18101] : 2400162>
+<miss>
+<lat : 11>
+1<i_buf access[18112] : 2400162>
+<buf hit : 2400162>
+<lat : 1>
+1<i_buf access[18124] : 2400162>
+<miss>
+<lat : 11>
+<i_buf access[18135] : 2400162>
+<buf hit : 2400162>
+<lat : 1>
+<i_buf access[18174] : 2400162>
+<miss>
+<lat : 11>
+<i_buf access[18185] : 2400162>
+<buf hit : 2400162>
+<lat : 1>
+<i_buf access[18196] : 240024c>
+<miss>
+<lat : 11>
+<i_buf access[18207] : 240024c>
+<buf hit : 240024c>
+<lat : 1>
+<i_buf access[18240] : 240024c>
+<miss>
+<lat : 11>
+111<i_buf access[18251] : 240024c>
+<buf hit : 240024c>
+<lat : 1>
+11<i_buf access[18288] : 240024d>
+<buf hit : 240024d>
+<lat : 1>
+<d_buf access[18291] : 280003c>
+<miss>
+<lat : 11>
+<i_buf access[18320] : 240024d>
+<miss>
+<lat : 11>
+<i_buf access[18331] : 240024d>
+<buf hit : 240024d>
+<lat : 1>
+<i_buf access[18367] : 2400283>
+<miss>
+<lat : 11>
+<i_buf access[18378] : 2400283>
+<buf hit : 2400283>
+<lat : 1>
+<i_buf access[18416] : 2400283>
+<miss>
+<lat : 11>
+<i_buf access[18427] : 2400283>
+<buf hit : 2400283>
+<lat : 1>
+<i_buf access[18429] : 240024d>
+<miss>
+<lat : 11>
+<i_buf access[18440] : 240024d>
+<buf hit : 240024d>
+<lat : 1>
+<i_buf access[18447] : 2400163>
+<miss>
+<lat : 11>
+<i_buf access[18458] : 2400163>
+<buf hit : 2400163>
+<lat : 1>
+<i_buf access[18495] : 2400163>
+<miss>
+<lat : 11>
+<i_buf access[18506] : 2400163>
+<buf hit : 2400163>
+<lat : 1>
+<i_buf access[18514] : 2400158>
+<miss>
+<lat : 11>
+<i_buf access[18525] : 2400158>
+<buf hit : 2400158>
+<lat : 1>
+<i_buf access[18550] : 2400158>
+<miss>
+<lat : 11>
+<i_buf access[18561] : 2400158>
+<buf hit : 2400158>
+<lat : 1>
+<i_buf access[18597] : 2400158>
+<miss>
+<lat : 11>
+<i_buf access[18608] : 2400158>
+<buf hit : 2400158>
+<lat : 1>
+<i_buf access[18615] : 2400159>
+<buf hit : 2400159>
+<lat : 1>
+11<i_buf access[18635] : 240024e>
+<miss>
+<lat : 11>
+<i_buf access[18646] : 240024e>
+<buf hit : 240024e>
+<lat : 1>
+<i_buf access[18653] : 240024e>
+<miss>
+<lat : 11>
+11<i_buf access[18664] : 240024e>
+<buf hit : 240024e>
+<lat : 1>
+1<d_buf access[18674] : 280003c>
+<buf hit : 280003c>
+<lat : 1>
+<d_buf access[18687] : 2800008>
+<miss>
+<lat : 11>
+<d_buf access[18688] : 2800014>
+<miss>
+<lat : 11>
+<d_buf access[18706] : 2800014>
+<buf hit : 2800014>
+<lat : 1>
+111<i_buf access[18723] : 240014e>
+<miss>
+<lat : 11>
+11<i_buf access[18734] : 240014e>
+<buf hit : 240014e>
+<lat : 1>
+<i_buf access[18746] : 240014e>
+<miss>
+<lat : 11>
+111<i_buf access[18763] : 240014e>
+<buf hit : 240014e>
+<lat : 1>
+1<i_buf access[18772] : 240014d>
+<miss>
+<lat : 11>
+<d_buf access[18774] : 2800002>
+<miss>
+<lat : 11>
+<i_buf access[18783] : 240014d>
+<buf hit : 240014d>
+<lat : 1>
+1<d_buf access[18797] : 2800017>
+<miss>
+<lat : 11>
+<d_buf access[18799] : 2800012>
+<miss>
+<lat : 11>
+<d_buf access[18811] : 2800017>
+<miss>
+<lat : 11>
+1<d_buf access[18812] : 2800017>
+<buf hit : 2800017>
+<lat : 10>
+1<i_buf access[18812] : 240014d>
+<miss>
+<lat : 11>
+1<i_buf access[18823] : 240014d>
+<buf hit : 240014d>
+<lat : 1>
+<i_buf access[18824] : 240014d>
+<miss>
+<lat : 11>
+<i_buf access[18835] : 240014d>
+<buf hit : 240014d>
+<lat : 1>
+1111111<d_buf access[18871] : 2800002>
+<miss>
+<lat : 11>
+<i_buf access[18893] : 240024e>
+<miss>
+<lat : 11>
+<d_buf access[18895] : 2800002>
+<buf hit : 2800002>
+<lat : 1>
+<i_buf access[18904] : 240024e>
+<buf hit : 240024e>
+<lat : 1>
+<i_buf access[18911] : 240024e>
+<miss>
+<lat : 11>
+11<i_buf access[18922] : 240024e>
+<buf hit : 240024e>
+<lat : 1>
+1<d_buf access[18945] : 2800008>
+<miss>
+<lat : 11>
+111<i_buf access[18981] : 240014e>
+<miss>
+<lat : 11>
+11<i_buf access[18992] : 240014e>
+<buf hit : 240014e>
+<lat : 1>
+<i_buf access[19004] : 240014e>
+<miss>
+<lat : 11>
+111<i_buf access[19021] : 240014e>
+<buf hit : 240014e>
+<lat : 1>
+1<d_buf access[19032] : 2800002>
+<miss>
+<lat : 11>
+<d_buf access[19033] : 2800002>
+<buf hit : 2800002>
+<lat : 10>
+<d_buf access[19053] : 2800003>
+<buf hit : 2800003>
+<lat : 1>
+<d_buf access[19064] : 2800003>
+<miss>
+<lat : 11>
+<d_buf access[19067] : 2800003>
+<buf hit : 2800003>
+<lat : 8>
+<d_buf access[19079] : 2800004>
+<buf hit : 2800004>
+<lat : 1>
+<d_buf access[19082] : 2800004>
+<miss>
+<lat : 11>
+<d_buf access[19085] : 2800005>
+<miss>
+<lat : 11>
+<d_buf access[19097] : 2800005>
+<buf hit : 2800005>
+<lat : 1>
+<d_buf access[19100] : 2800006>
+<buf hit : 2800006>
+<lat : 1>
+<d_buf access[19103] : 2800006>
+<miss>
+<lat : 11>
+<d_buf access[19106] : 2800007>
+<miss>
+<lat : 11>
+<d_buf access[19118] : 2800007>
+<buf hit : 2800007>
+<lat : 1>
+<d_buf access[19121] : 2800007>
+<miss>
+<lat : 11>
+<i_buf access[19131] : 240014f>
+<buf hit : 240014f>
+<lat : 1>
+<i_buf access[19164] : 240014f>
+<miss>
+<lat : 11>
+<i_buf access[19175] : 240014f>
+<buf hit : 240014f>
+<lat : 1>
+<i_buf access[19183] : 24000b2>
+<miss>
+<lat : 11>
+<i_buf access[19191] : 2400113>
+<miss>
+<lat : 11>
+<i_buf access[19202] : 2400113>
+<buf hit : 2400113>
+<lat : 1>
+1<i_buf access[19240] : 2400114>
+<buf hit : 2400114>
+<lat : 1>
+<i_buf access[19273] : 2400114>
+<miss>
+<lat : 11>
+<i_buf access[19284] : 2400114>
+<buf hit : 2400114>
+<lat : 1>
+1<i_buf access[19294] : 2400115>
+<buf hit : 2400115>
+<lat : 1>
+<i_buf access[19327] : 2400115>
+<miss>
+<lat : 11>
+<i_buf access[19338] : 2400115>
+<buf hit : 2400115>
+<lat : 1>
+<i_buf access[19346] : 24000b2>
+<miss>
+<lat : 11>
+1<i_buf access[19357] : 24000b2>
+<buf hit : 24000b2>
+<lat : 1>
+11<i_buf access[19408] : 24000b2>
+<miss>
+<lat : 11>
+11<i_buf access[19419] : 24000b2>
+<buf hit : 24000b2>
+<lat : 1>
+<i_buf access[19435] : 24000b2>
+<miss>
+<lat : 11>
+11<i_buf access[19446] : 24000b2>
+<buf hit : 24000b2>
+<lat : 1>
+1<i_buf access[19488] : 24000b2>
+<miss>
+<lat : 11>
+1<i_buf access[19499] : 24000b2>
+<buf hit : 24000b2>
+<lat : 1>
+1<i_buf access[19518] : 2400148>
+<miss>
+<lat : 11>
+1<i_buf access[19529] : 2400148>
+<buf hit : 2400148>
+<lat : 1>
+<d_buf access[19538] : 2800032>
+<miss>
+<lat : 11>
+<i_buf access[19540] : 2400149>
+<buf hit : 2400149>
+<lat : 1>
+1<i_buf access[19544] : 2400136>
+<miss>
+<lat : 11>
+<i_buf access[19555] : 2400136>
+<buf hit : 2400136>
+<lat : 1>
+<d_buf access[19564] : 2800013>
+<miss>
+<lat : 11>
+1<i_buf access[19579] : 240011a>
+<miss>
+<lat : 11>
+<i_buf access[19590] : 240011a>
+<buf hit : 240011a>
+<lat : 1>
+<i_buf access[19623] : 240011a>
+<miss>
+<lat : 11>
+<i_buf access[19634] : 240011a>
+<buf hit : 240011a>
+<lat : 1>
+<i_buf access[19649] : 24000b3>
+<miss>
+<lat : 11>
+<i_buf access[19657] : 2400136>
+<miss>
+<lat : 11>
+<i_buf access[19668] : 2400136>
+<buf hit : 2400136>
+<lat : 1>
+<i_buf access[19676] : 24000b3>
+<miss>
+<lat : 11>
+<d_buf access[19683] : 2800032>
+<miss>
+<lat : 11>
+<i_buf access[19684] : 2400137>
+<miss>
+<lat : 11>
+<i_buf access[19695] : 2400137>
+<buf hit : 2400137>
+<lat : 1>
+<i_buf access[19702] : 2400137>
+<miss>
+<lat : 11>
+<d_buf access[19705] : 2800045>
+<miss>
+<lat : 11>
+<d_buf access[19705] : 2800013>
+<miss>
+<lat : 11>
+1<i_buf access[19713] : 2400137>
+<buf hit : 2400137>
+<lat : 1>
+<i_buf access[19749] : 2400137>
+<miss>
+<lat : 11>
+<i_buf access[19760] : 2400137>
+<buf hit : 2400137>
+<lat : 1>
+<i_buf access[19769] : 24000b3>
+<miss>
+<lat : 11>
+<i_buf access[19775] : 24000b3>
+<buf hit : 24000b3>
+<lat : 5>
+<i_buf access[19812] : 2400111>
+<miss>
+<lat : 11>
+<i_buf access[19823] : 2400111>
+<buf hit : 2400111>
+<lat : 1>
+<i_buf access[19855] : 2400112>
+<buf hit : 2400112>
+<lat : 1>
+11<i_buf access[19893] : 2400112>
+<miss>
+<lat : 11>
+<i_buf access[19904] : 2400112>
+<buf hit : 2400112>
+<lat : 1>
+<i_buf access[19914] : 240022e>
+<miss>
+<lat : 11>
+<i_buf access[19925] : 240022e>
+<buf hit : 240022e>
+<lat : 1>
+<i_buf access[19958] : 240022f>
+<buf hit : 240022f>
+<lat : 1>
+<d_buf access[19960] : 2800043>
+<miss>
+<lat : 11>
+<i_buf access[19991] : 240022f>
+<miss>
+<lat : 11>
+<i_buf access[20002] : 240022f>
+<buf hit : 240022f>
+<lat : 1>
+<i_buf access[20012] : 240022f>
+<miss>
+<lat : 11>
+<i_buf access[20023] : 240022f>
+<buf hit : 240022f>
+<lat : 1>
+<d_buf access[20060] : 2800043>
+<buf hit : 2800043>
+<lat : 1>
+1<i_buf access[20061] : 2400112>
+<miss>
+<lat : 11>
+<i_buf access[20072] : 2400112>
+<buf hit : 2400112>
+<lat : 1>
+<i_buf access[20104] : 2400112>
+<miss>
+<lat : 11>
+<i_buf access[20115] : 2400112>
+<buf hit : 2400112>
+<lat : 1>
+<i_buf access[20122] : 24000b3>
+<miss>
+<lat : 11>
+<i_buf access[20133] : 24000b3>
+<buf hit : 24000b3>
+<lat : 1>
+<i_buf access[20143] : 2400149>
+<miss>
+<lat : 11>
+<i_buf access[20154] : 2400149>
+<buf hit : 2400149>
+<lat : 1>
+<i_buf access[20160] : 2400149>
+<miss>
+<lat : 11>
+1<i_buf access[20171] : 2400149>
+<buf hit : 2400149>
+<lat : 1>
+<d_buf access[20206] : 2800014>
+<miss>
+<lat : 11>
+11<i_buf access[20221] : 240011f>
+<miss>
+<lat : 11>
+<i_buf access[20232] : 240011f>
+<buf hit : 240011f>
+<lat : 1>
+<i_buf access[20238] : 240011f>
+<miss>
+<lat : 11>
+<i_buf access[20249] : 240011f>
+<buf hit : 240011f>
+<lat : 1>
+<i_buf access[20282] : 240011f>
+<miss>
+<lat : 11>
+111<i_buf access[20293] : 240011f>
+<buf hit : 240011f>
+<lat : 1>
+<i_buf access[20304] : 2400120>
+<buf hit : 2400120>
+<lat : 1>
+1<i_buf access[20341] : 2400120>
+<miss>
+<lat : 11>
+<i_buf access[20348] : 2400121>
+<miss>
+<lat : 11>
+<i_buf access[20359] : 2400121>
+<buf hit : 2400121>
+<lat : 1>
+<i_buf access[20412] : 2400121>
+<miss>
+<lat : 11>
+<i_buf access[20423] : 2400121>
+<buf hit : 2400121>
+<lat : 1>
+<i_buf access[20430] : 2400121>
+<miss>
+<lat : 11>
+1<i_buf access[20441] : 2400121>
+<buf hit : 2400121>
+<lat : 1>
+<i_buf access[20447] : 2400149>
+<miss>
+<lat : 11>
+<d_buf access[20450] : 2800014>
+<buf hit : 2800014>
+<lat : 1>
+<i_buf access[20458] : 2400149>
+<buf hit : 2400149>
+<lat : 1>
+<d_buf access[20467] : 2800045>
+<miss>
+<lat : 11>
+<d_buf access[20479] : 2800045>
+<buf hit : 2800045>
+<lat : 1>
+11111<i_buf access[20486] : 24000b3>
+<miss>
+<lat : 11>
+<i_buf access[20509] : 24000cd>
+<miss>
+<lat : 11>
+<i_buf access[20520] : 24000cd>
+<buf hit : 24000cd>
+<lat : 1>
+<i_buf access[20552] : 24000ce>
+<buf hit : 24000ce>
+<lat : 1>
+111<i_buf access[20589] : 24000ce>
+<miss>
+<lat : 11>
+<i_buf access[20600] : 24000ce>
+<buf hit : 24000ce>
+<lat : 1>
+<d_buf access[20609] : 2800030>
+<miss>
+<lat : 11>
+<i_buf access[20610] : 24000c9>
+<miss>
+<lat : 11>
+<i_buf access[20621] : 24000c9>
+<buf hit : 24000c9>
+<lat : 1>
+<i_buf access[20653] : 24000c9>
+<miss>
+<lat : 11>
+<i_buf access[20664] : 24000c9>
+<buf hit : 24000c9>
+<lat : 1>
+1<i_buf access[20697] : 24000c9>
+<miss>
+<lat : 11>
+1<d_buf access[20700] : 2800011>
+<miss>
+<lat : 11>
+<i_buf access[20708] : 24000c9>
+<buf hit : 24000c9>
+<lat : 1>
+11<i_buf access[20715] : 24000cd>
+<miss>
+<lat : 11>
+<i_buf access[20726] : 24000cd>
+<buf hit : 24000cd>
+<lat : 1>
+<d_buf access[20730] : 2800011>
+<buf hit : 2800011>
+<lat : 1>
+1<i_buf access[20734] : 24000ce>
+<buf hit : 24000ce>
+<lat : 1>
+<i_buf access[20772] : 24000ce>
+<miss>
+<lat : 11>
+<i_buf access[20783] : 24000ce>
+<buf hit : 24000ce>
+<lat : 1>
+<i_buf access[20791] : 2400121>
+<miss>
+<lat : 11>
+<i_buf access[20802] : 2400121>
+<buf hit : 2400121>
+<lat : 1>
+111<d_buf access[20819] : 2800030>
+<miss>
+<lat : 11>
+11111<i_buf access[20839] : 24000ca>
+<miss>
+<lat : 11>
+<i_buf access[20850] : 24000ca>
+<buf hit : 24000ca>
+<lat : 1>
+<i_buf access[20883] : 24000ca>
+<miss>
+<lat : 11>
+<i_buf access[20889] : 24000cd>
+<miss>
+<lat : 11>
+<i_buf access[20900] : 24000cd>
+<buf hit : 24000cd>
+<lat : 1>
+<d_buf access[20903] : 280002f>
+<miss>
+<lat : 11>
+<i_buf access[20936] : 24000cf>
+<miss>
+<lat : 11>
+<i_buf access[20947] : 24000cf>
+<buf hit : 24000cf>
+<lat : 1>
+<i_buf access[20980] : 24000cf>
+<miss>
+<lat : 11>
+111<i_buf access[20991] : 24000cf>
+<buf hit : 24000cf>
+<lat : 1>
+<i_buf access[20998] : 24000cf>
+<miss>
+<lat : 11>
+<d_buf access[21000] : 280002e>
+<miss>
+<lat : 11>
+<i_buf access[21009] : 24000cf>
+<buf hit : 24000cf>
+<lat : 1>
+111<i_buf access[21046] : 24000f7>
+<miss>
+<lat : 11>
+<i_buf access[21057] : 24000f7>
+<buf hit : 24000f7>
+<lat : 1>
+<i_buf access[21063] : 24000f8>
+<buf hit : 24000f8>
+<lat : 1>
+111<i_buf access[21073] : 24000f9>
+<buf hit : 24000f9>
+<lat : 1>
+1111<i_buf access[21082] : 24000f8>
+<miss>
+<lat : 11>
+<i_buf access[21093] : 24000f8>
+<buf hit : 24000f8>
+<lat : 1>
+<i_buf access[21146] : 24000f8>
+<miss>
+<lat : 11>
+<i_buf access[21157] : 24000f8>
+<buf hit : 24000f8>
+<lat : 1>
+<i_buf access[21164] : 24000f9>
+<buf hit : 24000f9>
+<lat : 1>
+<i_buf access[21196] : 24000f9>
+<miss>
+<lat : 11>
+1<i_buf access[21207] : 24000f9>
+<buf hit : 24000f9>
+<lat : 1>
+<i_buf access[21217] : 2400109>
+<miss>
+<lat : 11>
+<i_buf access[21228] : 2400109>
+<buf hit : 2400109>
+<lat : 1>
+<i_buf access[21235] : 240010a>
+<buf hit : 240010a>
+<lat : 1>
+11<i_buf access[21251] : 240010d>
+<miss>
+<lat : 11>
+<d_buf access[21252] : 2800043>
+<miss>
+<lat : 11>
+<i_buf access[21258] : 24000f9>
+<miss>
+<lat : 11>
+<i_buf access[21269] : 24000f9>
+<buf hit : 24000f9>
+<lat : 1>
+<i_buf access[21282] : 240010d>
+<miss>
+<lat : 11>
+<i_buf access[21293] : 240010d>
+<buf hit : 240010d>
+<lat : 1>
+<i_buf access[21300] : 240010d>
+<miss>
+<lat : 11>
+<i_buf access[21311] : 240010d>
+<buf hit : 240010d>
+<lat : 1>
+<i_buf access[21318] : 240010e>
+<buf hit : 240010e>
+<lat : 1>
+111<i_buf access[21331] : 24000cf>
+<miss>
+<lat : 11>
+1<i_buf access[21342] : 24000cf>
+<buf hit : 24000cf>
+<lat : 1>
+<i_buf access[21349] : 24000d0>
+<buf hit : 24000d0>
+<lat : 1>
+<d_buf access[21351] : 280002f>
+<miss>
+<lat : 11>
+<i_buf access[21356] : 24000d0>
+<miss>
+<lat : 11>
+<i_buf access[21367] : 24000d0>
+<buf hit : 24000d0>
+<lat : 1>
+<i_buf access[21399] : 24000d1>
+<buf hit : 24000d1>
+<lat : 1>
+<i_buf access[21443] : 2400122>
+<miss>
+<lat : 11>
+11<i_buf access[21454] : 2400122>
+<buf hit : 2400122>
+<lat : 1>
+1<i_buf access[21487] : 24000b3>
+<miss>
+<lat : 11>
+<i_buf access[21492] : 2400149>
+<miss>
+<lat : 11>
+<i_buf access[21503] : 2400149>
+<buf hit : 2400149>
+<lat : 1>
+<i_buf access[21509] : 240014a>
+<buf hit : 240014a>
+<lat : 1>
+<i_buf access[21516] : 24000b3>
+<miss>
+<lat : 11>
+<i_buf access[21525] : 2400116>
+<miss>
+<lat : 11>
+<i_buf access[21536] : 2400116>
+<buf hit : 2400116>
+<lat : 1>
+<i_buf access[21568] : 2400116>
+<miss>
+<lat : 11>
+<i_buf access[21579] : 2400116>
+<buf hit : 2400116>
+<lat : 1>
+11<i_buf access[21589] : 2400117>
+<buf hit : 2400117>
+<lat : 1>
+
+il1.hits:       11901
+il1.misses:        1591
+dl1.hits:        2668
+dl1.misses:         855
+i_buf.hits:         556
+i_buf.misses:         479
+d_buf.hits:         233
+d_buf.misses:         389

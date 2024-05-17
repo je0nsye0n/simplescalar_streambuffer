@@ -921,6 +921,21 @@ stat_print_stat(struct stat_sdb_t *sdb,	/* stat database */
 		FILE *fd)		/* output stream */
 {
   struct eval_value_t val;
+  char buff[128];
+  if(
+	strcmp(stat->name,"dl1.hits")==0||
+	strcmp(stat->name,"dl1.misses")==0||
+	strcmp(stat->name,"il1.hits")==0||
+	strcmp(stat->name,"il1.misses")==0||
+	strcmp(stat->name,"d_buf.hits")==0||
+	strcmp(stat->name,"d_buf.misses")==0||
+	strcmp(stat->name,"i_buf.hits")==0||
+	strcmp(stat->name,"i_buf.misses")==0
+				  ){
+		printf("\n%s:",stat->name);
+		mysprintf(buff,stat->format,*stat->variant.for_sqword.var);
+		printf("%s",buff);
+  }
 
   switch (stat->sc)
     {

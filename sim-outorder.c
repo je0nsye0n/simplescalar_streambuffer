@@ -181,6 +181,14 @@ static char *cache_il2_opt;
 /* l2 instruction cache hit latency (in cycles) */
 static int cache_il2_lat;
 
+/* stream buffer {<config>|none} */
+static int *dstream_buffer_opt;
+static int *istream_buffer_opt;
+
+/* stream buffer hit latency (in cycles) */
+static int dstream_buffer_lat;
+static int istream_buffer_lat;
+
 /* flush caches on system calls */
 static int flush_on_syscalls;
 
@@ -385,6 +393,10 @@ static struct cache_t *itlb;
 /* data TLB */
 static struct cache_t *dtlb;
 
+/*stream buffer*/
+static struct cache_t *dstream_buffer;
+static struct cache_t *istream_buffer;
+
 /* branch predictor */
 static struct bpred_t *pred;
 
@@ -433,6 +445,11 @@ dl1_access_fn(enum mem_cmd cmd,		/* access cmd, Read or Write */
 	      tick_t now)		/* time of access */
 {
   unsigned int lat;
+
+
+  if(dstream_buffer){
+  //printf("%d\n",lat);
+  }
 
   if (cache_dl2)
     {
@@ -487,7 +504,8 @@ il1_access_fn(enum mem_cmd cmd,		/* access cmd, Read or Write */
 	      tick_t now)		/* time of access */
 {
   unsigned int lat;
-
+if(istream_buffer){
+}
 if (cache_il2)
     {
       /* access next level of inst cache hierarchy */
@@ -734,7 +752,6 @@ sim_reg_options(struct opt_odb_t *odb)
 	      /* print */TRUE, /* format */NULL);
 
   /* cache options */
-
   opt_reg_string(odb, "-cache:dl1",
 		 "l1 data cache config, i.e., {<config>|none}",
 		 &cache_dl1_opt, "dl1:128:32:4:l",
@@ -774,6 +791,14 @@ sim_reg_options(struct opt_odb_t *odb)
 		 "l1 inst cache config, i.e., {<config>|dl1|dl2|none}",
 		 &cache_il1_opt, "il1:512:32:1:l",
 		 /* print */TRUE, NULL);
+
+  opt_reg_string(odb, "-cache:d_buf","dstream buffer {<config>|none}",&dstream_buffer_opt,"d_buf:4:32:1:1",/* print */ TRUE,NULL);
+
+  opt_reg_string(odb, "-cache:i_buf","istream buffer {<config>|none}",&istream_buffer_opt,"i_buf:4:32:1:1",TRUE,NULL);
+
+  opt_reg_int(odb,"-cache:d_buflat","stream buffer hit latency (in cycles)",&dstream_buffer_lat,0,TRUE,NULL);
+
+  opt_reg_int(odb,"-cache:i_buflat","istream_buffer hit latency (in cycles)",&istream_buffer_lat,0,TRUE,NULL);
 
   opt_reg_note(odb,
 "  Cache levels can be unified by pointing a level of the instruction cache\n"
@@ -1004,6 +1029,10 @@ sim_check_options(struct opt_odb_t *odb,        /* options database */
     {
       cache_dl1 = NULL;
 
+	  if(strcmp(dstream_buffer_opt,"none"))
+			  fatal("d_steam none");
+	  dstream_buffer=NULL;
+
       /* the level 2 D-cache cannot be defined */
       if (strcmp(cache_dl2_opt, "none"))
 	fatal("the l1 data cache must defined if the l2 cache is defined");
@@ -1018,6 +1047,8 @@ sim_check_options(struct opt_odb_t *odb,        /* options database */
 			       /* usize */0, assoc, cache_char2policy(c),
 			       dl1_access_fn, /* hit lat */cache_dl1_lat);
 
+	  if(dstream_buffer=NULL) fatal("stream buffer not!");
+	  else dstream_buffer=cache_create("d_buf",4,bsize,FALSE,0,1,cache_char2policy('f'),dl2_access_fn,1);
       /* is the level 2 D-cache defined? */
       if (!mystricmp(cache_dl2_opt, "none"))
 	cache_dl2 = NULL;
@@ -1037,6 +1068,11 @@ sim_check_options(struct opt_odb_t *odb,        /* options database */
   if (!mystricmp(cache_il1_opt, "none"))
     {
       cache_il1 = NULL;
+
+	  if(strcmp(istream_buffer_opt,"none"))
+			  fatal("stream buffer must defined if the l2 cache is defined");
+	  istream_buffer=NULL;
+
 
       /* the level 2 I-cache cannot be defined */
       if (strcmp(cache_il2_opt, "none"))
@@ -1074,6 +1110,8 @@ sim_check_options(struct opt_odb_t *odb,        /* options database */
 			       /* usize */0, assoc, cache_char2policy(c),
 			       il1_access_fn, /* hit lat */cache_il1_lat);
 
+	  if( istream_buffer = NULL) fatal("stream buffer not!");
+	  else istream_buffer=cache_create("i_buf",4,bsize,FALSE,0,1,cache_char2policy('f'),il2_access_fn,1);
       /* is the level 2 D-cache defined? */
       if (!mystricmp(cache_il2_opt, "none"))
 	cache_il2 = NULL;
@@ -1083,8 +1121,7 @@ sim_check_options(struct opt_odb_t *odb,        /* options database */
 	    fatal("I-cache l2 cannot access D-cache l2 as it's undefined");
 	  cache_il2 = cache_dl2;
 	}
-      else
-	{
+	  else{
 	  if (sscanf(cache_il2_opt, "%[^:]:%d:%d:%d:%c",
 		     name, &nsets, &bsize, &assoc, &c) != 5)
 	    fatal("bad l2 I-cache parms: "
@@ -1135,6 +1172,10 @@ sim_check_options(struct opt_odb_t *odb,        /* options database */
   if (cache_il2_lat < 1)
     fatal("l2 instruction cache latency must be greater than zero");
 
+  if (istream_buffer_lat < 0) 
+	fatal("stream buf latency must be greater than zero");
+  if (dstream_buffer_lat < 0)
+		  fatal("stream buf latency must be greater than zero");
   if (mem_nelt != 2)
     fatal("bad memory access latency (<first_chunk> <inter_chunk>)");
 
@@ -1312,7 +1353,10 @@ sim_reg_stats(struct stat_sdb_t *sdb)   /* stats database */
     cache_reg_stats(itlb, sdb);
   if (dtlb)
     cache_reg_stats(dtlb, sdb);
-
+  if(istream_buffer)
+		  cache_reg_stats(istream_buffer,sdb);
+  if(dstream_buffer)
+		  cache_reg_stats(dstream_buffer,sdb);
   /* debug variable(s) */
   stat_reg_counter(sdb, "sim_invalid_addrs",
 		   "total non-speculative bogus addresses seen (debug var)",
@@ -2186,10 +2230,12 @@ ruu_commit(void)
 		    {
 		      /* commit store value to D-cache */
 		      lat =
-			cache_access(cache_dl1, Write, (LSQ[LSQ_head].addr&~3),
+			l1_cache_access(cache_dl1, dstream_buffer, Write, 
+							(LSQ[LSQ_head].addr&~3),
 				     NULL, 4, sim_cycle, NULL, NULL);
 		      if (lat > cache_dl1_lat)
 			events |= PEV_CACHEMISS;
+			  //else printf("%x\n",lat);
 		    }
 
 		  /* all loads and stores must to access D-TLB */
@@ -2201,6 +2247,7 @@ ruu_commit(void)
 				     NULL, 4, sim_cycle, NULL, NULL);
 		      if (lat > 1)
 			events |= PEV_TLBMISS;
+			  printf("%x",lat);
 		    }
 		}
 	      else
@@ -2731,7 +2778,7 @@ ruu_issue(void)
 				{
 				  /* access the cache if non-faulting */
 				  load_lat =
-				    cache_access(cache_dl1, Read,
+				    l1_cache_access(cache_dl1, dstream_buffer, Read,
 						 (rs->addr & ~3), NULL, 4,
 						 sim_cycle, NULL, NULL);
 				  if (load_lat > cache_dl1_lat)
@@ -4231,7 +4278,8 @@ ruu_fetch(void)
 	    {
 	      /* access the I-cache */
 	      lat =
-		cache_access(cache_il1, Read, IACOMPRESS(fetch_regs_PC),
+		l1_cache_access(cache_il1, istream_buffer,
+						Read, IACOMPRESS(fetch_regs_PC),
 			     NULL, ISCOMPRESS(sizeof(md_inst_t)), sim_cycle,
 			     NULL, NULL);
 	      if (lat > cache_il1_lat)

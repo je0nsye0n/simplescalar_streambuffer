@@ -1,4 +1,4 @@
-/* cache.c - cache module routines */
+// cache.c - cache module routines */
 
 /* SimpleScalar(TM) Tool Suite
  * Copyright (C) 1994-2003 by Todd M. Austin, Ph.D. and SimpleScalar, LLC.
@@ -342,6 +342,7 @@ cache_create(char *name,		/* name of the cache */
   /* blow away the last block accessed */
   cp->last_tagset = 0;
   cp->last_blk = NULL;
+  //cp->eviction = false;
 
   /* allocate data blocks */
   cp->data = (byte_t *)calloc(nsets * assoc,
@@ -384,6 +385,7 @@ cache_create(char *name,		/* name of the cache */
 	  blk->user_data = (usize != 0
 			    ? (byte_t *)calloc(usize, sizeof(byte_t)) : NULL);
 
+	  blk->cycle = 0;
 	  /* insert cache block into set hash table */
 	  if (cp->hsize)
 	    link_htab_ent(cp, &cp->sets[i], blk);
@@ -491,14 +493,108 @@ cache_stats(struct cache_t *cp,		/* cache instance */
 	  (double)cp->invalidations/sum);
 }
 
-/* access a cache, perform a CMD operation on cache CP at address ADDR,
+int cal_cycle(int now, int cp_cycle){
+
+	if(now < cp_cycle)
+		return cp_cycle - now;
+	else
+		return 1;
+}
+
+unsigned int				/* latency of access in cycles */
+buffer_access(struct cache_t *cp,	/* cache to access */
+				struct cache_t *cp2,
+				md_addr_t addr,		/* address of access */
+            int nbytes,		/* number of bytes to access */
+            tick_t now){	/* for address of replaced block */
+    md_addr_t tag = CACHE_TAG(cp, addr);
+    md_addr_t set = CACHE_SET(cp, addr);
+    md_addr_t bofs = CACHE_BLK(cp, addr);
+    struct cache_blk_t *blk, *repl;
+    int lat = 0, hit_id=0, i=0;
+	int flag=0;
+
+	printf("<%s access[%d]",cp->name,now); 
+	printf(" : %x>\n",tag);
+	
+	// hit or miss 판단
+	blk = cp->sets[0].way_head;
+    if (blk->tag == tag && (blk->status & CACHE_BLK_VALID)){
+		printf("<buf hit : %x>\n",blk->tag);
+			flag=1;
+			lat = cal_cycle(now,blk->cycle);
+        }
+    
+	/* **HIT** */
+	if(flag){
+        cp->hits++;
+		blk = cp->sets[0].way_head;
+		
+		for(i=0; i<cp->nsets; i++){
+//		printf("before : [%d]'s tag %x\n",i,cp->sets[i].way_head->tag);
+		}
+
+		// buf to l1
+		cache_access(cp2,0,addr,NULL,nbytes,now,0,0);
+	
+		// buf update
+		for(i=0; i<cp->nsets-1; i++){
+		cp->sets[i].way_head->tag = cp->sets[i+1].way_head->tag;
+		}
+		cp->sets[cp->nsets-1].way_head->tag 
+				= CACHE_TAG(cp, addr+cp->bsize*cp->nsets*(cp->nsets));
+	
+		for(i=0; i<cp->nsets; i++){
+//		printf("after : [%d]'s tag %x\n",i,cp->sets[i].way_head->tag);
+		}
+
+		//lat = cal_cycle(now,)
+
+		return lat;	
+	}
+
+    /* **MISS** */
+	printf("<miss>\n");
+    cp->misses++;
+	cache_flush(cp,now);
+	
+	md_addr_t cur_addr = NULL;
+
+//	printf("miss\n");
+	for(i=0; i<cp->nsets; i++){
+		cur_addr = addr + cp->bsize * i * cp->nsets;
+		tag = CACHE_TAG(cp, cur_addr);
+		//tag += 1;
+		md_addr_t tag2 = ((cur_addr) >> (cp->bsize));
+//		printf("addr : %x\n",cur_addr);		
+		repl = cp->sets[i].way_head;
+//		printf("<buf change : %x>\n",tag);		
+		if(repl->status & CACHE_BLK_VALID){
+			cp->replacements++;
+			
+			lat += BOUND_POS(repl->ready - now);
+			lat += BOUND_POS(cp->bus_free - (now + lat));
+			cp->bus_free = MAX(cp->bus_free, (now + lat)) + 1;
+		}
+
+		repl->tag = tag;
+		repl->status = CACHE_BLK_VALID;
+		repl->cycle = now + 11;
+	}
+
+	
+    return 11;
+}
+
+/* access dl1 cache, perform a CMD operation on cache CP at address ADDR,
    places NBYTES of data at *P, returns latency of operation if initiated
    at NOW, places pointer to block user data in *UDATA, *P is untouched if
    cache blocks are not allocated (!CP->BALLOC), UDATA should be NULL if no
    user data is attached to blocks */
 unsigned int				/* latency of access in cycles */
-cache_access(struct cache_t *cp,	/* cache to access */
-	     enum mem_cmd cmd,		/* access type, Read or Write */
+l1_cache_access(struct cache_t *cp,	/* cache to access */
+				struct cache_t *cp2,
+				enum mem_cmd cmd,		/* access type, Read or Write */
 	     md_addr_t addr,		/* address of access */
 	     void *vp,			/* ptr to buffer for input/output */
 	     int nbytes,		/* number of bytes to access */
@@ -510,9 +606,12 @@ cache_access(struct cache_t *cp,	/* cache to access */
   md_addr_t tag = CACHE_TAG(cp, addr);
   md_addr_t set = CACHE_SET(cp, addr);
   md_addr_t bofs = CACHE_BLK(cp, addr);
+  md_addr_t tag2 = CACHE_TAG(cp2, addr);	
+ // printf("%x(addr) %x(tag) %d(shift)\n",addr,tag,cp->tag_shift);
   struct cache_blk_t *blk, *repl;
   int lat = 0;
-
+//	printf("<addr %x>\n",addr);
+//	printf("<tag %x>\n",tag);
   /* default replacement address */
   if (repl_addr)
     *repl_addr = 0;
@@ -565,8 +664,160 @@ cache_access(struct cache_t *cp,	/* cache to access */
   /* cache block not found */
 
   /* **MISS** */
+//printf("<l1 miss(l1) : %x>\n",tag);
+//	 printf("<l1 miss[%d]",now );
+//	 printf(" : %x>\n",tag2);
+  
   cp->misses++;
+	lat = buffer_access(cp2,cp,addr,nbytes,now);
+	printf("<lat : %d>\n",lat);
+	return lat;
+  
 
+ cache_hit: /* slow hit handler */
+  
+  /* **HIT** */
+  cp->hits++;
+
+  /* copy data out of cache block, if block exists */
+  if (cp->balloc)
+    {
+      CACHE_BCOPY(cmd, blk, bofs, p, nbytes);
+    }
+
+  /* update dirty status */
+  if (cmd == Write)
+    blk->status |= CACHE_BLK_DIRTY;
+
+  /* if LRU replacement and this is not the first element of list, reorder */
+  if (blk->way_prev && cp->policy == LRU)
+    {
+      /* move this block to head of the way (MRU) list */
+      update_way_list(&cp->sets[set], blk, Head);
+    }
+
+  /* tag is unchanged, so hash links (if they exist) are still valid */
+
+  /* record the last block to hit */
+  cp->last_tagset = CACHE_TAGSET(cp, addr);
+  cp->last_blk = blk;
+
+  /* get user block data, if requested and it exists */
+  if (udata)
+    *udata = blk->user_data;
+
+  /* return first cycle data is available to access */
+  return (int) MAX(cp->hit_latency, (blk->ready - now));
+
+ cache_fast_hit: /* fast hit handler */
+  
+  /* **FAST HIT** */
+  cp->hits++;
+
+  /* copy data out of cache block, if block exists */
+  if (cp->balloc)
+    {
+      CACHE_BCOPY(cmd, blk, bofs, p, nbytes);
+    }
+
+  /* update dirty status */
+  if (cmd == Write)
+    blk->status |= CACHE_BLK_DIRTY;
+
+  /* this block hit last, no change in the way list */
+
+  /* tag is unchanged, so hash links (if they exist) are still valid */
+
+  /* get user block data, if requested and it exists */
+  if (udata)
+    *udata = blk->user_data;
+
+  /* record the last block to hit */
+  cp->last_tagset = CACHE_TAGSET(cp, addr);
+  cp->last_blk = blk;
+
+  /* return first cycle data is available to access */
+  return (int) MAX(cp->hit_latency, (blk->ready - now));
+}
+
+/* access any cache except dl1, perform a CMD operation on cache CP at address ADDR,
+   places NBYTES of data at *P, returns latency of operation if initiated
+   at NOW, places pointer to block user data in *UDATA, *P is untouched if
+   cache blocks are not allocated (!CP->BALLOC), UDATA should be NULL if no
+   user data is attached to blocks */
+unsigned int				/* latency of access in cycles */
+cache_access(struct cache_t *cp,	/* cache to access */
+	     enum mem_cmd cmd,		/* access type, Read or Write */
+	     md_addr_t addr,		/* address of access */
+	     void *vp,			/* ptr to buffer for input/output */
+	     int nbytes,		/* number of bytes to access */
+	     tick_t now,		/* time of access */
+	     byte_t **udata,		/* for return of user data ptr */
+	     md_addr_t *repl_addr)	/* for address of replaced block */
+{
+  byte_t *p = vp;
+  md_addr_t tag = CACHE_TAG(cp, addr);
+  md_addr_t set = CACHE_SET(cp, addr);
+  md_addr_t bofs = CACHE_BLK(cp, addr);
+  struct cache_blk_t *blk, *repl;
+  int lat = 0;
+		
+//printf("<%x>\n",tag);
+  /* default replacement address */
+  if (repl_addr)
+    *repl_addr = 0;
+
+  /* check alignments */
+  if ((nbytes & (nbytes-1)) != 0 || (addr & (nbytes-1)) != 0)
+    fatal("cache: access error: bad size or alignment, addr 0x%08x", addr);
+
+  /* access must fit in cache block */
+  /* FIXME:
+     ((addr + (nbytes - 1)) > ((addr & ~cp->blk_mask) + (cp->bsize - 1))) */
+  if ((addr + nbytes) > ((addr & ~cp->blk_mask) + cp->bsize))
+    fatal("cache: access error: access spans block, addr 0x%08x", addr);
+
+  /* permissions are checked on cache misses */
+
+  /* check for a fast hit: access to same block */
+  if (CACHE_TAGSET(cp, addr) == cp->last_tagset)
+    {
+      /* hit in the same block */
+      blk = cp->last_blk;
+      goto cache_fast_hit;
+    }
+    
+  if (cp->hsize)
+    {
+      /* higly-associativity cache, access through the per-set hash tables */
+      int hindex = CACHE_HASH(cp, tag);
+      for (blk=cp->sets[set].hash[hindex];
+	   blk;
+	   blk=blk->hash_next)
+	{
+	  if (blk->tag == tag && (blk->status & CACHE_BLK_VALID))
+	    goto cache_hit;
+	}
+    }
+  else
+    {
+      /* low-associativity cache, linear search the way list */
+//	  if(strcmp(cp->name,"dl1")) printf("2 <l1 before : %x>\n",tag);
+      for (blk=cp->sets[set].way_head;
+	   blk;
+	   blk=blk->way_next)
+	{
+	  if (blk->tag == tag && (blk->status & CACHE_BLK_VALID))
+	    goto cache_hit;
+	}
+    }
+
+  /* cache block not found */
+
+  /* **MISS** */
+  cp->misses++;
+//  printf("[%d]\n",now);
+//if(strcmp(cp->name,"dl1")) printf("<l1 tag : %x>\n",tag);
   /* select the appropriate block to replace, and re-link this entry to
      the appropriate place in the way list */
   switch (cp->policy) {
@@ -584,7 +835,7 @@ cache_access(struct cache_t *cp,	/* cache to access */
   default:
     panic("bogus replacement policy");
   }
-
+//	if(strcmp(cp->name,"dl1")) printf("<l1 before : %x>\n",cp->sets[set].way_tail->tag);
   /* remove this block from the hash bucket chain, if hash exists */
   if (cp->hsize)
     unlink_htab_ent(cp, &cp->sets[set], repl);
@@ -649,6 +900,13 @@ cache_access(struct cache_t *cp,	/* cache to access */
   if (cp->hsize)
     link_htab_ent(cp, &cp->sets[set], repl);
 
+/*
+	if(strcmp(cp->name,"istream_buffer"))
+			printf("<%s change : %x %x>\n",cp->name, tag, addr);
+	if(strcmp(cp->name,"dstream_buffer"))
+			printf("<%s change : %x %x>\n",cp->name, tag, addr);
+
+*/			
   /* return latency of the operation */
   return lat;
 
